@@ -11,3 +11,7 @@ __pycache__/
 build/
 dist/
 .venv/
+
+# Added at split from ProtoGensis (previously covered by the monorepo root .gitignore)
+*.log
+.mastercontrol/
