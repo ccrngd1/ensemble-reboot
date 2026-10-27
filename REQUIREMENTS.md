@@ -40,15 +40,18 @@ flowchart LR
 
 ## Scope
 In:
-- 5 arms: single-best, best-of-N, persona panel, cross-family + strong aggregator, cross-family + weak aggregator. All arms are cost-matched to within ±15%.
-- Effort sweep: low / medium / high / xhigh (+ max where supported) on the single-best arm and on each panel member, plus at least one "low-effort cross-family panel vs high-effort single model" comparison.
-- Task sets with headroom and programmatic grading only: GPQA-Diamond, hard competition math (AIME-style, exact-match), a code set with unit tests. Pick sets where the best single model is <80%.
+- 5 arms: single-best, best-of-N, persona panel, cross-family + strong aggregator, cross-family + weak aggregator.
+- **Cost analysis via cost-per-correct-answer and accuracy-vs-cost frontier** (the ±15% cost-matching constraint is retired; see Key decisions).
+- Effort sweep: low / medium / high / xhigh (+ max where supported) on the single-best arm and on each panel member, plus at least one "low-effort cross-family panel vs high-effort single model" comparison. **Run top-up effort sweep for models not covered in the pilot** (~$50-80 estimated).
+- Task sets with headroom and programmatic grading only: **GPQA-Diamond, HLE text-only (Humanity's Last Exam), and a code set with unit tests**. Pick sets where the best single model is <80%.
 - Co-failure: for every model pair, P(both wrong) vs P(A wrong)·P(B wrong).
 - Judge/aggregator, if used for selection, must come from a family not on the panel (avoid self-preference).
+- **maxTokens: 100,000** for all calls (eliminates truncation artifacts from the pilot).
 
 Out:
 - Open-ended LLM-judge scoring (April's main weakness).
 - GSM8K / MT-Bench / AlpacaEval (saturated or judge-scored).
+- Hard competition math (AIME/HMMT) — dropped; CC prefers deep reasoning over math.
 - Mock mode results in any reported number.
 
 ## Acceptance criteria
@@ -74,6 +77,13 @@ Then it traces to a raw JSONL record with model id, effort level, tokens, cost a
 - Persona orchestrator survives only as arm A3 (prompt diversity control).
 - Spend gate: estimate the full-run cost from a 10-item pilot before running. CC approves any run >$100.
 - Nova 2 Lite at `high` effort: omit `inferenceConfig.maxTokens` (Bedrock 400 otherwise).
+
+### Post-pilot decisions (CC, 2026-10-27)
+1. **Task sets: drop math, add HLE.** Math (AIME 2026 + HMMT Feb 2026) is retired. Replaced with HLE text-only (Humanity's Last Exam), a 2,500-question expert-level benchmark with real headroom (frontier models ~60-65%). Use HLE-Rolling (Sept 2026 cleaned version) if available on HF, otherwise cais/hle filtered to text-only. Sample to ~250 items if >500 text-only items, stratified by subject. MC items: shuffled choices, letter grading. Short-answer items: exact-match.
+2. **Pin one frontier B + cost-per-correct.** Drop the ±15% cost-matching constraint (structurally infeasible with grok-4.7/kimi-k3 token costs vs cheap B models). Instead: (a) pin one frontier B across all sets (opus-5-5 and gpt-6-astra tied at 28/30 in pilot; final pick after HLE stage-0), and (b) report cost-per-correct-answer and the accuracy-vs-cost frontier for all arms.
+3. **maxTokens: 100k.** Pilot had 23 truncations at 32k (grok 10/30, fable 6, opus 4). Raise to 100,000 to eliminate truncation artifacts. Accept the cost increase for high-effort cells.
+4. **Keep fable-5-1 as A4a aggregator.** Rule-4(b) soft fail on GPQA (fable 8/10 vs kimi 9/10) was n=10 noise. Re-check on full stage-0; swap only if fable is still below kimi on the full set.
+5. **Run effort-sweep top-up.** The pilot only swept 3 of 10 models before the cap hit. Top up the remaining 7 (~$50-80 estimated) to get honest effort-axis data.
 
 ## Resources
 - April write-ups: `../ensemble-moa-bedrock-guide/BLOG.md`, `../ensemble-thinking-models/EXECUTIVE_SUMMARY.md` (stale −3% lines; see CRITICAL_FINDING_SELFCONS.md), `../ensemble-persona-orchestrator/BLOG.md` (mock-only)
