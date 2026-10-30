@@ -219,3 +219,42 @@ tested (`tests/test_billed_spend.py`, `test_budget_worstcase.py`,
   input) no longer pool with plain a1 calls; aggregator rows falling back
   to plain stats are flagged `role_fallback` (none in this run). Re-run
   moved the grand total $3,993 → $3,751.45 (default-effort core $694.03).
+
+## HLE task set swap (2026-10-27)
+
+Per CC direction (REQUIREMENTS.md Post-pilot decisions #1), math task set
+(AIME 2026 + HMMT Feb 2026) is retired and replaced with HLE text-only
+(Humanity's Last Exam).
+
+**Dataset**: Attempted HuggingFace cais/hle-rolling (Sept 2026 cleaned version)
+first, with fallback to cais/hle. Filtered to text-only items (no image field
+or image field is null/empty).
+
+**Item selection**: If text-only items exceed 500, stratified-sample to ~250
+by subject using per-subject proportional allocation.
+
+**Grading**:
+- MC items: per-item seeded choice shuffle (same pattern as GPQA), exact letter
+  extraction, graded by correct letter match.
+- Short-answer items: extract answer after "Answer:" line, normalize (lowercase,
+  strip punctuation/whitespace), exact-match comparison.
+
+**Manifest**: ensemble_reboot/data/manifest.json updated with HLE item_id →
+sha256 mapping. NO dataset text committed to git.
+
+**maxTokens raised to 100,000**: default_max_tokens in roster.py and client.py
+updated from 32,000 → 100,000 to eliminate truncation artifacts (pilot had 23
+truncations at 32k; see BUILD_NOTES accounting fix section). The Nova-at-high
+exception (omit maxTokens entirely) still applies.
+
+**Code changes**:
+- ensemble_reboot/data/hle.py: new loader (MC + short-answer grading)
+- ensemble_reboot/data/__init__.py: export load_hle_items
+- ensemble_reboot/pilot.py: TASK_SETS = ("gpqa", "hle", "code")
+- ensemble_reboot/grading_api.py: grade_hle() function
+- scripts/run_pilot.py: load_hle_items instead of load_math_items
+- README.md: task sets section updated, maxTokens noted
+- math_sets.py kept for backwards compatibility but not used in pilot
+
+**Math answer extractor tests**: retained in tests/ as historical reference but
+marked as applying to the retired math task set.

@@ -45,11 +45,11 @@ ASSUMED_OUTPUT_TOKENS = (500, 8000)
 
 
 def load_items(data_dir):
-    from ensemble_reboot.data import load_gpqa_diamond, load_lcb_items, load_math_items
+    from ensemble_reboot.data import load_gpqa_diamond, load_hle_items, load_lcb_items
 
     return {
         "gpqa": load_gpqa_diamond(data_dir),
-        "math": load_math_items(data_dir),
+        "hle": load_hle_items(data_dir),
         "code": load_lcb_items(data_dir),
     }
 

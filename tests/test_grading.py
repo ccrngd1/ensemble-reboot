@@ -1,6 +1,6 @@
-"""Graders: GPQA/math (incl. truncation = wrong), code grading via sandbox."""
+"""Graders: GPQA/HLE/math (incl. truncation = wrong), code grading via sandbox."""
 
-from ensemble_reboot.grading_api import grade_gpqa, grade_math
+from ensemble_reboot.grading_api import grade_gpqa, grade_hle, grade_math
 from grading.code_grader import grade_code
 
 
@@ -31,6 +31,65 @@ def test_grade_math_normalized_equality():
 def test_grade_math_no_answer():
     out = grade_math("I give up.", "42")
     assert not out.correct and out.extracted is None
+
+
+# ----------------------------------------------------------------- HLE grading
+
+
+class _HLEItemMC:
+    """Mock HLE multiple-choice item."""
+    question_type = "multiple_choice"
+    correct_letter = "B"
+
+
+class _HLEItemSA:
+    """Mock HLE short-answer item."""
+    question_type = "short_answer"
+    correct_answer = "photosynthesis"
+
+
+def test_grade_hle_mc_correct():
+    item = _HLEItemMC()
+    out = grade_hle("The answer is B because...\nAnswer: B", item)
+    assert out.correct and out.extracted == "B"
+
+
+def test_grade_hle_mc_wrong():
+    item = _HLEItemMC()
+    out = grade_hle("Answer: A", item)
+    assert not out.correct and out.extracted == "A"
+
+
+def test_grade_hle_mc_truncated():
+    item = _HLEItemMC()
+    out = grade_hle("Answer: B", item, truncated=True)
+    assert not out.correct
+    assert out.details["truncated"]
+
+
+def test_grade_hle_shortanswer_correct():
+    item = _HLEItemSA()
+    out = grade_hle("The process is called photosynthesis.\nAnswer: Photosynthesis", item)
+    assert out.correct and out.extracted == "photosynthesis"
+
+
+def test_grade_hle_shortanswer_normalized():
+    item = _HLEItemSA()
+    # Normalization: lowercase, strip whitespace/punctuation
+    out = grade_hle("Answer:  PHOTOSYNTHESIS.  ", item)
+    assert out.correct and out.extracted == "photosynthesis"
+
+
+def test_grade_hle_shortanswer_wrong():
+    item = _HLEItemSA()
+    out = grade_hle("Answer: respiration", item)
+    assert not out.correct and out.extracted == "respiration"
+
+
+def test_grade_hle_shortanswer_no_answer():
+    item = _HLEItemSA()
+    out = grade_hle("I don't know.", item)
+    assert not out.correct and out.extracted == ""
 
 
 # ----------------------------------------------------------------- code grading

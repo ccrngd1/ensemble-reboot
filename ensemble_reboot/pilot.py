@@ -33,13 +33,13 @@ from .arms import (
 )
 from .budget import BudgetExceeded, BudgetGuard, estimate_input_tokens
 from .client import BedrockClient, BedrockError, BedrockRetriesExhausted
-from .grading_api import grade_code_response, grade_gpqa, grade_math
+from .grading_api import grade_code_response, grade_gpqa, grade_hle, grade_math
 from .pricing import PricingTable
 from .records import VOTE_MODEL_ID, Record, RecordStore
 from .roster import Roster
 from .rules import check_rule4
 
-TASK_SETS = ("gpqa", "math", "code")
+TASK_SETS = ("gpqa", "hle", "code")
 SAMPLE_SALT = "pilot-sample-v1"
 PILOT_ITEMS_PER_SET = 10
 
@@ -213,6 +213,8 @@ class PilotRunner:
         item = self._item(call.task_set, call.item_id)
         if call.task_set == "gpqa":
             return grade_gpqa(text, item.correct_letter, truncated)
+        if call.task_set == "hle":
+            return grade_hle(text, item, truncated)
         if call.task_set == "math":
             return grade_math(text, item.answer, truncated)
         return grade_code_response(text, item, truncated)

@@ -57,13 +57,17 @@ Nova-2-Lite rule that `inferenceConfig.maxTokens` must be omitted at `high`)
 lives in `ensemble_reboot/client.py`, shapes verified by
 `scripts/smoke_roster.py`.
 
+All API calls use `maxTokens: 100,000` (raised from 32k post-pilot to eliminate
+truncation artifacts).
+
 ## Task sets
 
 - **GPQA-Diamond** (198 items): official zip (password read from the repo
   README at runtime), per-item seeded choice shuffle, letter grading.
-- **Math**: MathArena AIME 2026 + HMMT Feb 2026, filtered to single
-  exact-answer items; `\boxed{}` / "Final answer:" extraction with exact
-  normalization.
+- **HLE text-only** (~250 items): Humanity's Last Exam (HuggingFace cais/hle-rolling
+  or cais/hle), filtered to text-only items (no images), stratified-sampled by
+  subject if needed. MC items: shuffled choices, letter grading. Short-answer
+  items: exact-match after normalization.
 - **Code**: LiveCodeBench `code_generation_lite`, hard difficulty, most
   recent available window (see BUILD_NOTES — the requested post-2026-06
   window does not exist upstream). Public tests are used only for best-of-N
@@ -117,7 +121,7 @@ wrong and counted separately.
 
 - LiveCodeBench has no post-2026-06 problems; we use the most recent window
   (recorded in the manifest). Newer-model contamination risk is therefore
-  higher for the code set than for the 2026 math sets.
+  higher for the code set than for HLE/GPQA.
 - Rule-4(b) uses pilot point estimates on n=10 items/set; CI overlap is
   reported but not enforced.
 - Best-of-N/persona ties break deterministically (earliest proposal), which

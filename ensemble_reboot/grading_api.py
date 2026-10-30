@@ -4,6 +4,7 @@ Truncated responses (stopReason == max_tokens) are graded WRONG and counted
 separately in summaries.
 """
 
+import re
 from dataclasses import dataclass, field
 
 from .extractors import (
@@ -39,6 +40,37 @@ def grade_math(response_text: str, reference: str, truncated: bool = False) -> G
         correct,
         {"reference": normalize_math_answer(str(reference)), "truncated": truncated},
     )
+
+
+def grade_hle(response_text: str, item, truncated: bool = False) -> GradeOutcome:
+    """Grade HLE item: MC uses letter extraction, short-answer uses exact match."""
+    if item.question_type == "multiple_choice":
+        letter = extract_letter(response_text)
+        correct = (letter == item.correct_letter) and not truncated
+        return GradeOutcome(letter, correct, {
+            "correct_letter": item.correct_letter,
+            "question_type": "multiple_choice",
+            "truncated": truncated,
+        })
+    else:  # short_answer
+        # Extract answer after "Answer:" line
+        match = re.search(r'(?:^|\n)Answer:\s*(.+?)(?:\n|$)', response_text, re.I)
+        extracted_raw = match.group(1).strip() if match else ""
+
+        # Normalize the extracted answer
+        def normalize(text):
+            text = text.strip().lower()
+            text = re.sub(r'\s+', ' ', text)
+            text = text.strip('.,;:!?')
+            return text
+
+        extracted = normalize(extracted_raw)
+        correct = (extracted == item.correct_answer) and not truncated
+        return GradeOutcome(extracted, correct, {
+            "correct_answer": item.correct_answer,
+            "question_type": "short_answer",
+            "truncated": truncated,
+        })
 
 
 def grade_code_response(response_text: str, item, truncated: bool = False,

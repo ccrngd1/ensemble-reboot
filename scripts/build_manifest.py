@@ -11,7 +11,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
-from ensemble_reboot.data import load_gpqa_diamond, load_lcb_items, load_math_items
+from ensemble_reboot.data import load_gpqa_diamond, load_hle_items, load_lcb_items, load_math_items
 from ensemble_reboot.data.lcb import window_info
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -21,19 +21,21 @@ OUT = ROOT / "ensemble_reboot" / "data" / "manifest.json"
 def main():
     data_dir = ROOT / "data"
     gpqa = load_gpqa_diamond(data_dir)
-    math_items = load_math_items(data_dir)
+    hle = load_hle_items(data_dir)
     code = load_lcb_items(data_dir)
+    # Keep math for backwards compatibility but not in active manifest
+    math_items = load_math_items(data_dir)
     manifest = {
         "gpqa": {
             "n_items": len(gpqa),
             "source": "https://github.com/idavidrein/gpqa dataset.zip (gpqa_diamond.csv)",
             "items": {i.item_id: i.item_sha256 for i in gpqa},
         },
-        "math": {
-            "n_items": len(math_items),
-            "source": "HF MathArena/aime_2026 + MathArena/hmmt_feb_2026, "
-                      "filtered to single-exact-answer items",
-            "items": {i.item_id: i.item_sha256 for i in math_items},
+        "hle": {
+            "n_items": len(hle),
+            "source": "HF cais/hle-rolling (or cais/hle fallback), text-only items, "
+                      "stratified-sampled by subject if >500",
+            "items": {i.item_id: i.item_sha256 for i in hle},
         },
         "code": {
             "n_items": len(code),
@@ -41,11 +43,18 @@ def main():
             "window": window_info(code),
             "items": {i.item_id: i.item_sha256 for i in code},
         },
+        "math": {
+            "n_items": len(math_items),
+            "source": "HF MathArena/aime_2026 + MathArena/hmmt_feb_2026, "
+                      "filtered to single-exact-answer items [RETIRED 2026-10-27]",
+            "items": {i.item_id: i.item_sha256 for i in math_items},
+        },
     }
     OUT.write_text(json.dumps(manifest, indent=2))
     print(f"wrote {OUT}")
-    for ts in ("gpqa", "math", "code"):
+    for ts in ("gpqa", "hle", "code"):
         print(f"  {ts}: {manifest[ts]['n_items']} items")
+    print(f"  math (retired): {manifest['math']['n_items']} items")
 
 
 if __name__ == "__main__":

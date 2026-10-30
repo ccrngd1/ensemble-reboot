@@ -44,7 +44,7 @@ ROLE_BY_ARM = {"a4a": "aggregator", "a4b": "aggregator", "a3": "persona"}
 def full_set_sizes() -> dict:
     if MANIFEST.exists():
         m = json.loads(MANIFEST.read_text())
-        return {ts: m[ts]["n_items"] for ts in ("gpqa", "math", "code")}
+        return {ts: m[ts]["n_items"] for ts in ("gpqa", "hle", "code")}
     raise SystemExit("data manifest missing; run scripts/build_manifest.py")
 
 
@@ -388,7 +388,7 @@ def reduced_options(rows):
          "est_usd": total(lambda r: r["is_default_effort"])},
         {"option": "2 seeds instead of 3",
          "est_usd": round(full * 2 / 3, 2)},
-        {"option": "GPQA + math only (drop code)",
+        {"option": "GPQA + HLE only (drop code)",
          "est_usd": total(lambda r: r["task_set"] != "code")},
     ]
 

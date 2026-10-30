@@ -159,7 +159,7 @@ class BedrockClient:
         spec: ModelSpec,
         prompt: str,
         level: str,
-        max_tokens: int = 32000,
+        max_tokens: int = 100000,
         system_prompt: str | None = None,
     ) -> ConverseResult:
         """One Converse call with retries on 429/5xx/timeouts.

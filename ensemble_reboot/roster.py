@@ -73,7 +73,7 @@ class ModelSpec:
 class Roster:
     region: str
     models: list
-    default_max_tokens: int = 32000
+    default_max_tokens: int = 100000
     arms: dict = field(default_factory=dict)
 
     def by_id(self, profile_id: str) -> ModelSpec:
@@ -133,6 +133,6 @@ def load_roster(path) -> Roster:
     return Roster(
         region=raw.get("region", "us-east-1"),
         models=models,
-        default_max_tokens=int(raw.get("default_max_tokens", 32000)),
+        default_max_tokens=int(raw.get("default_max_tokens", 100000)),
         arms=raw.get("arms", {}),
     )
