@@ -203,63 +203,6 @@
       "gpqa-888abd3e43c5": "888abd3e43c5309a94695395bb46a63d37beb9fb11e24847a75f369a06b1e11a"
     }
   },
-  "math": {
-    "n_items": 51,
-    "source": "HF MathArena/aime_2026 + MathArena/hmmt_feb_2026, filtered to single-exact-answer items",
-    "items": {
-      "aime_2026-1": "4d866680f9238c0ae6b14d41fc7250d041d6c5073ed167b043ff1d059a7f7252",
-      "aime_2026-2": "2822569975bbb1eca16464b01ebb61ac8d516951613263501e4ea3c72d6fc24b",
-      "aime_2026-3": "0e674f51e84de55e0a402f23a5868dc118bd759b384f88327adabedd30359771",
-      "aime_2026-4": "cba4eb5fe5dc6660eb2b921df9b91f8ca2bf981690eb13cf24b8ca0328026544",
-      "aime_2026-5": "f3d797442d90f75da78d4de8adc1dde8b1c6c5d2f062cbea2ab1724b799ea1c5",
-      "aime_2026-6": "7968ea2f49d404309e79bbbd485d0c4c5f2dc1413bec889119a4cc6251f7d04b",
-      "aime_2026-7": "9a742f03e053bc9fcd98a9d6efb153135517309bfe4927db6e6b6a9a8aa8fa4d",
-      "aime_2026-8": "e6ea64827cab6b0e5ea58a6cfd651f5cd9f67898ef4deba8dc00694112ddfdc0",
-      "aime_2026-9": "5e99c1f8e33f1b510b11d7fc16b0bae4b7e0490025846f054c47a56b4d807196",
-      "aime_2026-10": "6a666186a52a223a807dca774d8600ddd754317a65c040fca538f139b291e6df",
-      "aime_2026-11": "f2f2d976fb29b00497dea783e22226e3e022a414cf90835c48a6288c4b69b8dc",
-      "aime_2026-12": "1eaadd490abe9a9c07dc10eb4fac5e05b97c24d65c2e02a14ccc3e4f0b50c457",
-      "aime_2026-13": "f98aacf1abda30569f77e7dcc1e8d936c8e784a36a5620f23b853634b3cb41b4",
-      "aime_2026-14": "c6d3cf210a1369fe78a590f41f1a9af4c031eb6fbd7d35f207fc2a1d75c96174",
-      "aime_2026-15": "5cc894a0e8a6612ba07b7e6fe563daf51272ff819a870986e670e24988996a76",
-      "aime_2026-16": "77bffe9f7e54fd6d480fe3f354595843f5001e7299e4678702be06d0fad2dd9e",
-      "aime_2026-17": "8742f9e6848458bd91c32c5f61373f3015eb0d57c008ce4cfa82ef3f14de3f50",
-      "aime_2026-18": "bce9ef2f43a9f59bfbeb6d3e67e282575e4ebd7161a4af81c2f9ad00c47621fd",
-      "aime_2026-19": "7a1a552fa3c096a71865d62acc6577acf5af49fe3cc1be5eccbd345de4af233d",
-      "aime_2026-20": "652b177c71e8a583a04222f1e1f23f913224e1baea41ffb0a6a6d6b539cfe77d",
-      "aime_2026-21": "f3d7b78d243a1a500bf8f0ef91a3ecfff3ebc894a9f7c2c0ff45a6151704de96",
-      "aime_2026-22": "ac19f76765b0b6b88561c352a15c7ce8fda91067b243a418b37ac6852d051ae8",
-      "aime_2026-23": "d47975ec2ba3a7dd24ecf47f98f9937eb10943b94448b27957fe2cb60fdc7a7f",
-      "aime_2026-24": "7443669f7e9038ecbaa20040585b634dda36623e0129c5fb18d9e5cf895db73e",
-      "aime_2026-25": "f7b4a98af9dd00a521396033749a2180021a97407016472fc87eb707029e05ec",
-      "aime_2026-26": "d5d04c315dcc2b451b820c59ee09cbbf2f8f0e03b89d9bae9c47b8acff903823",
-      "aime_2026-27": "51697b0daa5c5889c487c06dadb3f5279afe64889481e0a7f1380610894980fc",
-      "aime_2026-28": "f969f616feb3991ffa601424596bb0b7924fa9d62c3f58c6ba9d8552361294ea",
-      "aime_2026-29": "cda72262349e722276e8339a5c7cbef06aae7d30da94a83221cb7b84e6a223cf",
-      "aime_2026-30": "8ff9e9f62f235d5f18f547a5165fc6ace0d2c516ade3d3c9b39b919dfb71128e",
-      "hmmt_feb_2026-1": "1a30f641fda875bada43ba34f894903d69fd5bc0f87d32efcf5182adf5508d71",
-      "hmmt_feb_2026-2": "c7e0ce551fa5fb1fe5641cfdc842cd14eb331e7c74ca521f6603616d4fdbc733",
-      "hmmt_feb_2026-3": "e3a2e94252520b2ea4b2595e32c2371464c0c13f3c9b26d917711dc109b659f3",
-      "hmmt_feb_2026-4": "8868d587a8ed62b801a0810a3c6a4157e86006c098888715030d1878271d3563",
-      "hmmt_feb_2026-5": "aa0004253bec9889cf7f0cdd310615fe2610cbbe2527602275618df7447fb3f5",
-      "hmmt_feb_2026-6": "741999cfdc29a22e7539fc805dd6e9820028ee88a28a0dd819353c924b9e4d8c",
-      "hmmt_feb_2026-8": "329def43a0de0189056668d61a0f45aba1154235eec0787200220cd90c4f3519",
-      "hmmt_feb_2026-10": "97fe603a8eb793a5d5d5c5a2eb0d2cbd1c2bb9cbb314b4a46225d18e97cc7c25",
-      "hmmt_feb_2026-11": "7e24493f49bb1adebaaa2f629d3fe6b6b7cd75e5ce9b03e0071698dbaf9b014b",
-      "hmmt_feb_2026-12": "c7bdadbc73dcf443d1c7ed6920973ca4c3368062d6dd74c81985ca7292e36079",
-      "hmmt_feb_2026-13": "9be8484023925d911bbf11625d16d213e31218811eb504e706bba13e05fcddbb",
-      "hmmt_feb_2026-14": "cea2cbac1151e879121194dbacc7cfc7915a11aa209defe1a87d60201f02d594",
-      "hmmt_feb_2026-15": "d5652e9c1bf4b499aab12a4fbe8133a4115762691e4283c96c38becfbec5845a",
-      "hmmt_feb_2026-17": "faf89d6047e00132d5692428048fdec17465fa0d564e4fd7f087c91a64cbacd9",
-      "hmmt_feb_2026-18": "a15b7fe201370ecc75bb8a7287095379ff435a2c1c1e232940e2b23e1ca38c61",
-      "hmmt_feb_2026-19": "8f226b9b421ba802e4776e4e651efe9a4db51f04d54a5bcb821c20b3d98b117d",
-      "hmmt_feb_2026-20": "82b776d1d7c370b9a31408efaabc4eb57db890d62f4dda439e09d8c5860e7f36",
-      "hmmt_feb_2026-21": "330e5ea946c485e6b2fb71eeb99e3882ec0b3e3effd16c609964d0e5925880f7",
-      "hmmt_feb_2026-22": "3e35d9d1f1df40848ef3eee0d85f1b4de51c022ee4b207afe080149bce74272e",
-      "hmmt_feb_2026-32": "de06aa61e78c7081e872f868ae531169b90473d495e1e98d595c1230d470d848",
-      "hmmt_feb_2026-33": "a9a5d5893382db9d6151efa142a60ec128dffae2ed4081ddc56b0b7e9895296c"
-    }
-  },
   "code": {
     "n_items": 61,
     "source": "HF livecodebench/code_generation_lite test6.jsonl, hard only",
@@ -335,5 +278,1768 @@
       "lcb-arc196_c": "f9dde34b8d6751f3c6e00f42871b9632449758246a1563e08f9e1c8aea8cf39d",
       "lcb-arc196_d": "fa99c39abbeabca319e3e2dddf7bad450bd7db916aeb4190b8aa6fd9ae514758"
     }
+  },
+  "hle": {
+    "source": "macabdul9/hle_text_only (HuggingFace, community text-only mirror)",
+    "version": "snapshot e3e9cb5a550ec7de645fac553b0e2768d30a03ee",
+    "n_items": 250,
+    "n_mc": 85,
+    "n_short_answer": 165,
+    "excluded_categories": [
+      "Math"
+    ],
+    "sampling": "stratified by category, max 30% per category, target 250",
+    "items": [
+      {
+        "item_id": "hle-66e4cdec11c64a7e4051b2d9",
+        "item_sha256": "36b6a02612759ce5565386de5137b70904b14939ad92cf44ec28edcf0c845c24",
+        "question_type": "multiple_choice",
+        "subject": "Artificial Intelligence",
+        "category": "Computer Science/AI"
+      },
+      {
+        "item_id": "hle-66e8784d70625d8c7700315a",
+        "item_sha256": "6fc81b9e5d8099b5cca3d1d997d8ee7c23460f96f0fabe39ab5dba7d5b1c14a5",
+        "question_type": "multiple_choice",
+        "subject": "Artificial Intelligence",
+        "category": "Computer Science/AI"
+      },
+      {
+        "item_id": "hle-66e8add1650a03361a14c6f8",
+        "item_sha256": "00a00d2148778adf8ec8418ef4ea5ec1a05246463b95c607b54c7219040b55b4",
+        "question_type": "short_answer",
+        "subject": "Bioinformatics",
+        "category": "Biology/Medicine"
+      },
+      {
+        "item_id": "hle-66e8b578d0c1f7390bad120c",
+        "item_sha256": "7c67a69f83d3a24b993128488932592bc05f3f971a94aa72b8eb84ae89b396d3",
+        "question_type": "multiple_choice",
+        "subject": "Artificial Intelligence",
+        "category": "Computer Science/AI"
+      },
+      {
+        "item_id": "hle-66e8ccc4089d1e34c84c76c0",
+        "item_sha256": "d8fb8b11b68a08c1c6bfcce85a2cefa8d39eb4498408dce0979e43c8c2fe1a76",
+        "question_type": "short_answer",
+        "subject": "Biology",
+        "category": "Biology/Medicine"
+      },
+      {
+        "item_id": "hle-66e9100b48468f864f861b90",
+        "item_sha256": "36230605f6c0cf0f1fa1803dd58f2a7565d7e5e78c3c7d7d753bb156c8003261",
+        "question_type": "short_answer",
+        "subject": "Physics",
+        "category": "Physics"
+      },
+      {
+        "item_id": "hle-66e97fd756455f341c7849c3",
+        "item_sha256": "33f68bb899a209fcad075a1756c0909e479cc1cbbfe753ef8467b60ef8db2014",
+        "question_type": "multiple_choice",
+        "subject": "Linguistics",
+        "category": "Humanities/Social Science"
+      },
+      {
+        "item_id": "hle-66e98858bd843f9be58fb2c7",
+        "item_sha256": "6879ddf7103918f071c14a635b288d58b3a5c1ac9ddaf3d9206e78cc6f895de8",
+        "question_type": "short_answer",
+        "subject": "Trivia",
+        "category": "Other"
+      },
+      {
+        "item_id": "hle-66e9ce9d29eb7c1a0721fdf1",
+        "item_sha256": "ad148ab32cf56b846d92ab2ba3a25d9540b8289f87efec681e95af86a8d1b8df",
+        "question_type": "short_answer",
+        "subject": "Linguistics",
+        "category": "Humanities/Social Science"
+      },
+      {
+        "item_id": "hle-66ea1dd348eb93c2aef1c735",
+        "item_sha256": "288731351afcfaa8dce81ed3e3badc3bc36252dff0d4eebba82f1cdb22b11558",
+        "question_type": "multiple_choice",
+        "subject": "Genetics",
+        "category": "Biology/Medicine"
+      },
+      {
+        "item_id": "hle-66ea3fb6e2dc97dd61195fe6",
+        "item_sha256": "af67f5ab83340a056ba6d912d8549c166d66233866e09cd845bf45c0e64a223e",
+        "question_type": "multiple_choice",
+        "subject": "Artificial Intelligence",
+        "category": "Computer Science/AI"
+      },
+      {
+        "item_id": "hle-66ea6b423082708f0c7163ca",
+        "item_sha256": "8baef32aff7cdeef2723ca00f551d0f171a6855b232e168a8bbdef815c6a3ab6",
+        "question_type": "short_answer",
+        "subject": "Trivia",
+        "category": "Other"
+      },
+      {
+        "item_id": "hle-66ea70cd3d800a43340dd4d0",
+        "item_sha256": "9ea9bda82bdcd58b4065e3835d1c6578b4622a2755e663cc3ff1660fc963074b",
+        "question_type": "short_answer",
+        "subject": "Art History",
+        "category": "Other"
+      },
+      {
+        "item_id": "hle-66ea96b819e2883032892d8e",
+        "item_sha256": "21226ed7c8033429c77f6842c433e2395e66ded09d9c156e982c07b22440708a",
+        "question_type": "multiple_choice",
+        "subject": "Psychology",
+        "category": "Humanities/Social Science"
+      },
+      {
+        "item_id": "hle-66eaed13c47c4325f612ff48",
+        "item_sha256": "3ff8a97c19dc010e19843c52cee70073c83908bf299d9a11a3f73d887b4894a0",
+        "question_type": "short_answer",
+        "subject": "Information Technology",
+        "category": "Computer Science/AI"
+      },
+      {
+        "item_id": "hle-66eaed874f8d520f598dbf11",
+        "item_sha256": "0e9d88dffe2ebad11446149619dbf595fe762aa377d455933b4bd537abaebcc9",
+        "question_type": "multiple_choice",
+        "subject": "Robotics",
+        "category": "Computer Science/AI"
+      },
+      {
+        "item_id": "hle-66eafb96b082c5e6a76a49c0",
+        "item_sha256": "5786ce3cbce4e1ddd3341462dbdab536c9d63cfc1e3b5c2be91b7fca044a1eda",
+        "question_type": "short_answer",
+        "subject": "History",
+        "category": "Humanities/Social Science"
+      },
+      {
+        "item_id": "hle-66eb3cfb2b3ac1255c97d92a",
+        "item_sha256": "27808c212fc1270ed9554b3be8aa1829c0224aa470228122c38b49cfe951d85f",
+        "question_type": "short_answer",
+        "subject": "Artificial Intelligence",
+        "category": "Computer Science/AI"
+      },
+      {
+        "item_id": "hle-66ec8ab4b489956467209e0c",
+        "item_sha256": "444201adefc300c784f08c0d425bc08f71e3639c15f3594a603f30e00cf03185",
+        "question_type": "short_answer",
+        "subject": "Electrical Engineering",
+        "category": "Engineering"
+      },
+      {
+        "item_id": "hle-66ed2362900e472541f5d0e9",
+        "item_sha256": "948b4d79df7f12b718664cd5000578f84255d030d775f5a344b3cf53680f8ae7",
+        "question_type": "short_answer",
+        "subject": "Computer Science",
+        "category": "Computer Science/AI"
+      },
+      {
+        "item_id": "hle-66ed97d1c2becb9452e4d7b4",
+        "item_sha256": "1bb516040c3e1667738288e4fd10cc352b0a4842e6e880ed69613c4bdd81b6bd",
+        "question_type": "short_answer",
+        "subject": "Information Technology",
+        "category": "Computer Science/AI"
+      },
+      {
+        "item_id": "hle-66eda111ea64e37f9218600c",
+        "item_sha256": "08d0a2e295eaf3358408e18b8092aa7e69e732ec239e719f61739674954076a4",
+        "question_type": "short_answer",
+        "subject": "Physics",
+        "category": "Physics"
+      },
+      {
+        "item_id": "hle-66edb4f2037d7dbe8bf48d0a",
+        "item_sha256": "189e58ee1c88575c9c12da7228a70fa8b4c78fc54187f6c0bf1a7e5a62db827f",
+        "question_type": "short_answer",
+        "subject": "Physics",
+        "category": "Physics"
+      },
+      {
+        "item_id": "hle-66ee93ba02314f06feb186cf",
+        "item_sha256": "e4fab3e3df404876675ae61acdd3b4061291a46f037c5209fc0c15db0052e063",
+        "question_type": "multiple_choice",
+        "subject": "Immunology",
+        "category": "Biology/Medicine"
+      },
+      {
+        "item_id": "hle-66eefc79e487aa1349195d5f",
+        "item_sha256": "47904c4014d15eebd21a8003f3d32b88898d0f05434162b8a08e470088c0edd6",
+        "question_type": "short_answer",
+        "subject": "Programming",
+        "category": "Computer Science/AI"
+      },
+      {
+        "item_id": "hle-66f000874b6bc4f9d21fc7fa",
+        "item_sha256": "b20c8b1f97ee4f37bb52e25fc9f679b2a9405d9c9c87f6a01c83a51f6b8bb2c1",
+        "question_type": "short_answer",
+        "subject": "Games",
+        "category": "Other"
+      },
+      {
+        "item_id": "hle-66f0f65fd23ed0ac5f43b260",
+        "item_sha256": "b9a1435d9bf89b6e11f51d690bbae951d09d0d060c15f2f534e9d0135ef3bcdb",
+        "question_type": "multiple_choice",
+        "subject": "Oceanography",
+        "category": "Other"
+      },
+      {
+        "item_id": "hle-66f1d45cd216f3e0f3222d38",
+        "item_sha256": "bf52adc073498ec1aa7f40cb14c8c87b5eb633093717fb0c44b41b2f9fd3d986",
+        "question_type": "short_answer",
+        "subject": "Physics",
+        "category": "Physics"
+      },
+      {
+        "item_id": "hle-66f28a89f1256af80477e15d",
+        "item_sha256": "0931268d31f4cb37ebbb8c23727838cc5fe9b4ef9215f08fbce7aa211c50faba",
+        "question_type": "short_answer",
+        "subject": "Computer Science",
+        "category": "Computer Science/AI"
+      },
+      {
+        "item_id": "hle-66f2dee46721a56e35d20300",
+        "item_sha256": "3680830c62bfe390f3d0f3448f0cbc3e0b72b964c867a6696cc730369b901685",
+        "question_type": "multiple_choice",
+        "subject": "Astronomy",
+        "category": "Physics"
+      },
+      {
+        "item_id": "hle-66f31140cdc5dafd297e9b5a",
+        "item_sha256": "d77b9311310ce2460e7edf93a833d68633c1bd790947811fa94c9a92a7e11423",
+        "question_type": "multiple_choice",
+        "subject": "Molecular Biology",
+        "category": "Biology/Medicine"
+      },
+      {
+        "item_id": "hle-66f44382e369fb72959c8e86",
+        "item_sha256": "6333fd8abd1fcd4376a9b24f7e1c8a4ddfb9946033f30f6e4d3621e975ad2751",
+        "question_type": "short_answer",
+        "subject": "Graphic Design",
+        "category": "Other"
+      },
+      {
+        "item_id": "hle-66f4491ee406283b486f0f51",
+        "item_sha256": "9540db5ae80ec837a74836b4fe545ce41fdc1856b400a21a77b12283457da79f",
+        "question_type": "short_answer",
+        "subject": "Computer Science",
+        "category": "Computer Science/AI"
+      },
+      {
+        "item_id": "hle-66f5ac3d909b45b3b472d01f",
+        "item_sha256": "4d5aad19da4de6109df0e908e34204453242986ff068e45684b5a0882d63f78d",
+        "question_type": "short_answer",
+        "subject": "Musicology",
+        "category": "Other"
+      },
+      {
+        "item_id": "hle-66f5db356e132c6b4fd9408b",
+        "item_sha256": "3dd5f0fc2c5530bd83f0431571573b187010e13811ff5b81aac6fb9229b0cc3e",
+        "question_type": "multiple_choice",
+        "subject": "Other",
+        "category": "Other"
+      },
+      {
+        "item_id": "hle-66f6743f2db0dfd3e0b594e7",
+        "item_sha256": "d8b8d9caf0b5b2f46767e12d1bf56b4492000f71898c03b02b4f94276089e689",
+        "question_type": "short_answer",
+        "subject": "Neuroscience",
+        "category": "Biology/Medicine"
+      },
+      {
+        "item_id": "hle-66f760ebf206a49e129c7ed9",
+        "item_sha256": "a62877a2b77f42607bc67e34e9ea7d0f9520b80ee822d767c55db9b4220e72ae",
+        "question_type": "multiple_choice",
+        "subject": "Computer Science",
+        "category": "Computer Science/AI"
+      },
+      {
+        "item_id": "hle-66f85b33881bc7c87a8fc0e9",
+        "item_sha256": "08c5dd0641b9b3d6e2a15a411ea7644e6bff3b3bfdef6f40f0e60c319680f910",
+        "question_type": "short_answer",
+        "subject": "Aerospace Engineering",
+        "category": "Engineering"
+      },
+      {
+        "item_id": "hle-66f864c8f7c10f2d2ba396df",
+        "item_sha256": "08d33700f1f2359e0f4cb4fd9a50a9c071983e6730e05017f62b49c2127c3aff",
+        "question_type": "multiple_choice",
+        "subject": "Robotics",
+        "category": "Computer Science/AI"
+      },
+      {
+        "item_id": "hle-66f8cff8469c315e2c9ed2f6",
+        "item_sha256": "a4c24feef7103f014cc9fe556f167316abff01ce55b7e9e2f0dcde40963023db",
+        "question_type": "multiple_choice",
+        "subject": "Physics",
+        "category": "Physics"
+      },
+      {
+        "item_id": "hle-66fa0dffda3403394e6b9996",
+        "item_sha256": "e3731fcc84cd8a58c1b080af7892f7b0d8e852c3e009c72d82db33d80a5a178d",
+        "question_type": "multiple_choice",
+        "subject": "Computer Science",
+        "category": "Computer Science/AI"
+      },
+      {
+        "item_id": "hle-66fb0be4ba88843ae8205a95",
+        "item_sha256": "c8f119711e3a55fd7ad4008247147f28935db9f5a035571b598bdaea21eb1a88",
+        "question_type": "short_answer",
+        "subject": "Philosophy",
+        "category": "Humanities/Social Science"
+      },
+      {
+        "item_id": "hle-66fbc8ca51f7e5e714c6c4b1",
+        "item_sha256": "3902fef8b06ffb8e4d59108eff50917d99b38a688c2a5cc607d066f826ef9fc9",
+        "question_type": "short_answer",
+        "subject": "Computer Science",
+        "category": "Computer Science/AI"
+      },
+      {
+        "item_id": "hle-66fc2df0b72463921f6c40f2",
+        "item_sha256": "605615da8085c67a9aebe7d16676e02543d319dc28e7fdb42eb7e854a24409b2",
+        "question_type": "short_answer",
+        "subject": "Biochemistry",
+        "category": "Biology/Medicine"
+      },
+      {
+        "item_id": "hle-66fc550fd90ebe461bfd0c94",
+        "item_sha256": "2b17c0a218ece92341ce905b97021a71fe3e891e13ba5d2de8b468c234848850",
+        "question_type": "short_answer",
+        "subject": "Computer Science",
+        "category": "Computer Science/AI"
+      },
+      {
+        "item_id": "hle-66fc5e611f5f3f3b48ae9566",
+        "item_sha256": "79199623a060e95d712f2af1b332300cc7140a41db85922ff87e7848ded85bd4",
+        "question_type": "multiple_choice",
+        "subject": "Neuroscience",
+        "category": "Biology/Medicine"
+      },
+      {
+        "item_id": "hle-66fc5e8f98a7264ef58309b9",
+        "item_sha256": "de9bc7336ce09d0ab4a9681b03821b8ee7e9ee051d7cc5a3c23a5109ef509d0e",
+        "question_type": "short_answer",
+        "subject": "Chemistry",
+        "category": "Chemistry"
+      },
+      {
+        "item_id": "hle-66fc7287c9752085eff2c8a6",
+        "item_sha256": "2dc8f7ef103a63b2e080b27a3c167e56eaecd9c69322834ea099ef51688f2788",
+        "question_type": "multiple_choice",
+        "subject": "Classics",
+        "category": "Humanities/Social Science"
+      },
+      {
+        "item_id": "hle-66fc89ce455038a48ed359e4",
+        "item_sha256": "1cd7da94396b90553db0bfe58703f340591259391f7023fce6364152ee57dfda",
+        "question_type": "multiple_choice",
+        "subject": "Theoretical Biology",
+        "category": "Biology/Medicine"
+      },
+      {
+        "item_id": "hle-66fcbfc0ba592689db77ada9",
+        "item_sha256": "d1966f265f4f27c36176150bed7d7ffb1730e286c8727bbb1c09a0adc9b3ccc7",
+        "question_type": "short_answer",
+        "subject": "Physics",
+        "category": "Physics"
+      },
+      {
+        "item_id": "hle-66fda7a057cea4445778e88a",
+        "item_sha256": "d871547559685bd16478f1c133682c4aed4474609895932bbf5d27f9fc60fb34",
+        "question_type": "multiple_choice",
+        "subject": "Biology",
+        "category": "Biology/Medicine"
+      },
+      {
+        "item_id": "hle-66fdabade0fff2f18b7478e3",
+        "item_sha256": "5162a8ab74293e84ecd13f6b555b1d1cee936731e4e80cecbb958636ed79b422",
+        "question_type": "short_answer",
+        "subject": "Chemistry",
+        "category": "Chemistry"
+      },
+      {
+        "item_id": "hle-66fddfcfb3108418b8a5566a",
+        "item_sha256": "7e3bcbe91ce5f91db888bdf22c54e99c6d3d0a5e2d8c76c96724473b7bbbf67a",
+        "question_type": "short_answer",
+        "subject": "Electrical Engineering",
+        "category": "Engineering"
+      },
+      {
+        "item_id": "hle-66fe16f4762ab58b937863b8",
+        "item_sha256": "090013bea8a8f72928e8da5c22b31576c8bab312ba0b9c331322b2d946d21e79",
+        "question_type": "multiple_choice",
+        "subject": "Chemistry",
+        "category": "Chemistry"
+      },
+      {
+        "item_id": "hle-66fe596c0eeb4521791d31ef",
+        "item_sha256": "55b9341c26132a716ff597685c172a5e04ce84b92d7e67cd71997f0be443b268",
+        "question_type": "multiple_choice",
+        "subject": "Immunology",
+        "category": "Biology/Medicine"
+      },
+      {
+        "item_id": "hle-66fe796bc12cbe6aeaa26e69",
+        "item_sha256": "115d68beab3c4b9234ccd6aeea02e9f50317add6c70d93d47a87e9f8909d61c6",
+        "question_type": "short_answer",
+        "subject": "Philosophy",
+        "category": "Humanities/Social Science"
+      },
+      {
+        "item_id": "hle-670013827794cc36bc974f27",
+        "item_sha256": "e4a8f1b5c4fba1a418ed550bf2d4bd13cba71aac6306098407b9bd06e136b41b",
+        "question_type": "multiple_choice",
+        "subject": "Immunology",
+        "category": "Biology/Medicine"
+      },
+      {
+        "item_id": "hle-6700ab4bfa64315ed5204e4d",
+        "item_sha256": "009c73bfe09c944a6971e3f1d0ceb17393d821b664b96d358ea56335c5ee1b8e",
+        "question_type": "short_answer",
+        "subject": "Biology",
+        "category": "Biology/Medicine"
+      },
+      {
+        "item_id": "hle-6700c57848d1e47d3d2f74c6",
+        "item_sha256": "8f7724fbe0a0c4920591ae1aef728d934bdf9acfe5acc01347845e3cf365d423",
+        "question_type": "multiple_choice",
+        "subject": "Chemistry",
+        "category": "Chemistry"
+      },
+      {
+        "item_id": "hle-67015a7f6a2b21f149f3aaba",
+        "item_sha256": "45caa80777872e9a342d4621ca7a73f7a0fb2280934d05d723104280c2000ce7",
+        "question_type": "short_answer",
+        "subject": "Classics",
+        "category": "Humanities/Social Science"
+      },
+      {
+        "item_id": "hle-67015d62777a275ca50eb18b",
+        "item_sha256": "7844f813ee62a7bf719fc380594e9b297082e43c0cb08fc87b939117b1994922",
+        "question_type": "multiple_choice",
+        "subject": "Classics",
+        "category": "Humanities/Social Science"
+      },
+      {
+        "item_id": "hle-67018145e8c125b41caa9ee3",
+        "item_sha256": "77391a835905ae80254c2e0d78d4874c99f0da9e1112ddc7f5f389abd5ab5d33",
+        "question_type": "multiple_choice",
+        "subject": "Molecular Genetics",
+        "category": "Biology/Medicine"
+      },
+      {
+        "item_id": "hle-6701d2675f6691877f264511",
+        "item_sha256": "8f1fb2b3a73a84e495578c7072bc7fdb6e1ba36ecf4a1c870b84b13cc3cd45c8",
+        "question_type": "short_answer",
+        "subject": "Games",
+        "category": "Other"
+      },
+      {
+        "item_id": "hle-670285bc39fbddbbfdaffdfe",
+        "item_sha256": "b6b1909e9818a6342de47b42ac2cd1cfa0924887e7c6ee7b077a2835a6cd7409",
+        "question_type": "multiple_choice",
+        "subject": "Linguistics",
+        "category": "Humanities/Social Science"
+      },
+      {
+        "item_id": "hle-670286f6d1eaaf6acb753550",
+        "item_sha256": "f4e286c0abefe0bb86949decf42697227ffd76432fdd7910bc2de88bc4fc0f5c",
+        "question_type": "short_answer",
+        "subject": "Statistical Thermodynamics",
+        "category": "Physics"
+      },
+      {
+        "item_id": "hle-670402f0bae67686d8aef3e8",
+        "item_sha256": "86bb5e73c3beb26418e17d72e55deed7db7ff980738e593df0a260aad4a1f09d",
+        "question_type": "short_answer",
+        "subject": "Physics",
+        "category": "Physics"
+      },
+      {
+        "item_id": "hle-67041441aa877e548ccdc28c",
+        "item_sha256": "c632ced7f3cbbb77850014c9e3e09c463fe26efeb5d9b090c0c1ad54e1a718bb",
+        "question_type": "short_answer",
+        "subject": "Physics",
+        "category": "Physics"
+      },
+      {
+        "item_id": "hle-6704465caf0a436d92c65160",
+        "item_sha256": "1b631bffa0c8cc3e1e28c5000566de632acb17cab50bf5d822ff894fb36d5845",
+        "question_type": "short_answer",
+        "subject": "Physics",
+        "category": "Physics"
+      },
+      {
+        "item_id": "hle-6704ba2101d8c58fba562885",
+        "item_sha256": "ca4812105ae605d10682c54529dedcc3ad6b21f92bc147394fc1cd3c4b88fee1",
+        "question_type": "short_answer",
+        "subject": "Computer Science",
+        "category": "Computer Science/AI"
+      },
+      {
+        "item_id": "hle-67055b15222ba55ab0b88431",
+        "item_sha256": "f909aaf57c25e75899b20f602340b664e0d8c546b124296de07071d32cca885d",
+        "question_type": "short_answer",
+        "subject": "Classics",
+        "category": "Humanities/Social Science"
+      },
+      {
+        "item_id": "hle-6705b23880154ff607a205b5",
+        "item_sha256": "4ba20f7242b634121dd7e58a0df95d2dfb5d00000cd81afa9a776560c3d58490",
+        "question_type": "short_answer",
+        "subject": "History",
+        "category": "Humanities/Social Science"
+      },
+      {
+        "item_id": "hle-6707425209b8f334446ed3e2",
+        "item_sha256": "3bf0b70763fe0c206f4651ac73c5c2a624cfe78f0450cb666be043aacf417f6f",
+        "question_type": "short_answer",
+        "subject": "Physics",
+        "category": "Physics"
+      },
+      {
+        "item_id": "hle-670880520ed68fbdc467064e",
+        "item_sha256": "1f0688f4baa35a99a1e0c28a18128893f15cfe76b199645b963c259ab9c50709",
+        "question_type": "short_answer",
+        "subject": "Chemistry",
+        "category": "Chemistry"
+      },
+      {
+        "item_id": "hle-67090fa5356700b5af622ae8",
+        "item_sha256": "626d75a2e4d2e62045cc5d09e1f19f13d40786745f0fe3f9b1fa1aa8dc538aaf",
+        "question_type": "short_answer",
+        "subject": "Chemistry",
+        "category": "Chemistry"
+      },
+      {
+        "item_id": "hle-67098f3be4ccdb3537e01ef5",
+        "item_sha256": "14be269a977ef9e8ada241825e454b3e8c75c4fec8b8a1818aafdfc2e0872847",
+        "question_type": "short_answer",
+        "subject": "Trivia",
+        "category": "Other"
+      },
+      {
+        "item_id": "hle-6709df4c3c2174379ffee04b",
+        "item_sha256": "9c42a22fb9e3010cec96e647f1064deb9cd8825733c8c97c5e25e3881e291bc6",
+        "question_type": "short_answer",
+        "subject": "Art History",
+        "category": "Other"
+      },
+      {
+        "item_id": "hle-670aa3e255f3b29ec899f979",
+        "item_sha256": "d17e641a9fcf68c357222603caaad0b8bff2126776b50f03d23ae53c73b70fb9",
+        "question_type": "multiple_choice",
+        "subject": "Classics",
+        "category": "Humanities/Social Science"
+      },
+      {
+        "item_id": "hle-670cfd37787b413636ae1e57",
+        "item_sha256": "73c37d76a3fc73ef6c51da680b78fe422c22a2e17d7015944ddce9705aa36be2",
+        "question_type": "short_answer",
+        "subject": "Computer Science",
+        "category": "Computer Science/AI"
+      },
+      {
+        "item_id": "hle-670d86ec56f489221087dc67",
+        "item_sha256": "60b44edb66f2e9e7035642e617aa0434d873f14fe491653b8649d747e84e7017",
+        "question_type": "short_answer",
+        "subject": "Movies",
+        "category": "Other"
+      },
+      {
+        "item_id": "hle-670e9b885d472377f6c572a2",
+        "item_sha256": "35452500f2e4b4daa2be5d20a6a78f11d63951ccdfb7793f5c22740a64900e65",
+        "question_type": "short_answer",
+        "subject": "Trivia",
+        "category": "Other"
+      },
+      {
+        "item_id": "hle-670f4501dfe615f3d2f7436e",
+        "item_sha256": "594a5ac5e7aa6981f891159bcbb56779403f5dcc2bff889b745055e5e5507162",
+        "question_type": "short_answer",
+        "subject": "Bioengineering",
+        "category": "Biology/Medicine"
+      },
+      {
+        "item_id": "hle-670f83926933cc6600d3185d",
+        "item_sha256": "dcf2523c28ab1e4f764d400c24fef9d023c4274996c71ea16f9db0375a3ae3d0",
+        "question_type": "short_answer",
+        "subject": "Puzzle",
+        "category": "Other"
+      },
+      {
+        "item_id": "hle-670f9916451a882595c8f434",
+        "item_sha256": "be792848120c9332eed69c2bcc040cf8f34d95be1b8ea3e0e26e9b122c96f0be",
+        "question_type": "short_answer",
+        "subject": "Puzzle",
+        "category": "Other"
+      },
+      {
+        "item_id": "hle-670fe86a7e294dc6ad20c1ba",
+        "item_sha256": "03325a63893639cc0eb4b422a4d5a3d1a732c923294d83f6c7ebd0cc0b47e141",
+        "question_type": "short_answer",
+        "subject": "Physics",
+        "category": "Physics"
+      },
+      {
+        "item_id": "hle-6712787d0d05bc73fc008dfe",
+        "item_sha256": "ca16d4d47c637d76ce96d8d1c35e079828d1055fea697ad4f3ba38025beb2d9c",
+        "question_type": "short_answer",
+        "subject": "Public Health",
+        "category": "Biology/Medicine"
+      },
+      {
+        "item_id": "hle-6712b295a9b33679ba972956",
+        "item_sha256": "86404e645de8fc1cae7c2236bb1a37242799d9ee4735e8ddaa34e4bb6120e4cf",
+        "question_type": "multiple_choice",
+        "subject": "Computer Science",
+        "category": "Computer Science/AI"
+      },
+      {
+        "item_id": "hle-67142e7e7da71e9cbf55a7f9",
+        "item_sha256": "507d342ef1280f57c8a4d7d4a1c4b5b318e110443688e0ece66779903458f317",
+        "question_type": "short_answer",
+        "subject": "Chemistry",
+        "category": "Chemistry"
+      },
+      {
+        "item_id": "hle-671578771aadf81d39666bac",
+        "item_sha256": "3a2f0b69adf2b1718e7c21e5c426cfee8520560a9aa4a72b54741c63a3f21f65",
+        "question_type": "short_answer",
+        "subject": "Physics",
+        "category": "Physics"
+      },
+      {
+        "item_id": "hle-6715a17ddf8f7209e373b9b0",
+        "item_sha256": "63965f3168afc9980b7d71715b8847cf0ef6db63618a6112e4284b513c6d6982",
+        "question_type": "short_answer",
+        "subject": "Games",
+        "category": "Other"
+      },
+      {
+        "item_id": "hle-6715a9a5b3287d3dd4db03cd",
+        "item_sha256": "f389e4464e6d62aa74889cf516f2d35329c87853c3ac101298c3ff81d0dbc0b0",
+        "question_type": "short_answer",
+        "subject": "Environmental Contamination",
+        "category": "Biology/Medicine"
+      },
+      {
+        "item_id": "hle-6715b2dab3287d3dd4db03d6",
+        "item_sha256": "2ff6e1bba4e2e048083aadd17cc7975c7bd6068370c8956cafa628c12901fbf2",
+        "question_type": "short_answer",
+        "subject": "Computer Science",
+        "category": "Computer Science/AI"
+      },
+      {
+        "item_id": "hle-6715e455f818cdd1872c0ef0",
+        "item_sha256": "915a72ce125903a804f017377e45f9857fb8f7529236e7bc65d05737a2a95b52",
+        "question_type": "multiple_choice",
+        "subject": "Linguistics",
+        "category": "Humanities/Social Science"
+      },
+      {
+        "item_id": "hle-67166e91db97533c679d4609",
+        "item_sha256": "76fdfe6401121bb81dc7717c6f9ee167c2c0e357d5ccdbd8a9c714c29b7fb3c2",
+        "question_type": "multiple_choice",
+        "subject": "Linguistics",
+        "category": "Humanities/Social Science"
+      },
+      {
+        "item_id": "hle-6716ade4a5f1fd93530b3fda",
+        "item_sha256": "08604d71b61fa5a148e542284ca7b024f93bd0d2adafa86883f8f8ebf12ac03a",
+        "question_type": "multiple_choice",
+        "subject": "Paleoclimatology",
+        "category": "Other"
+      },
+      {
+        "item_id": "hle-6716de6c9a0dd17680df31e0",
+        "item_sha256": "4ecf6a1e0167c995e53f0609ff6918e2b4372359aae482a96e3658bb2c871f05",
+        "question_type": "multiple_choice",
+        "subject": "Earth Science",
+        "category": "Other"
+      },
+      {
+        "item_id": "hle-67173a11ffe2e8bed48b717f",
+        "item_sha256": "3a79f821d586efe218b2ef23596ebf351b65a4964a4c4155741bf89ff7b49b3f",
+        "question_type": "short_answer",
+        "subject": "Civil Engineering",
+        "category": "Engineering"
+      },
+      {
+        "item_id": "hle-6717fbb348394bb7e001a0c2",
+        "item_sha256": "b35f16e3f5193e389df7d1e263835995d6971d5a84035693072886fe1e99c626",
+        "question_type": "short_answer",
+        "subject": "Comparative Literature",
+        "category": "Humanities/Social Science"
+      },
+      {
+        "item_id": "hle-671808958b88f01935b5825a",
+        "item_sha256": "4310ad8550c2b6ad56ddd6c74a0e8cb0bef2056a10055135f09546231ff835c1",
+        "question_type": "multiple_choice",
+        "subject": "Chemistry",
+        "category": "Chemistry"
+      },
+      {
+        "item_id": "hle-67182659782f2aff686eab73",
+        "item_sha256": "96c824a5e8107cd9157f1665f931518c476d822991e989a3446696ad4cdde846",
+        "question_type": "multiple_choice",
+        "subject": "Chemistry",
+        "category": "Chemistry"
+      },
+      {
+        "item_id": "hle-67192b9472c6fd14e759e369",
+        "item_sha256": "9870606afe498a6254921bd13e6396bd96b890c52ad2567630928487db2e8dab",
+        "question_type": "short_answer",
+        "subject": "Computer Science",
+        "category": "Computer Science/AI"
+      },
+      {
+        "item_id": "hle-6719c737e08d3c6d7fa52736",
+        "item_sha256": "037870b0234937f2425dc50d99686585ababbe19cd229bebd660524e51d96586",
+        "question_type": "multiple_choice",
+        "subject": "Computer Science",
+        "category": "Computer Science/AI"
+      },
+      {
+        "item_id": "hle-6719f92b62a994eccd9f964b",
+        "item_sha256": "69edffb9bac5d5c6e9051e813de10caa065f52faa071062017c4bea5f846a278",
+        "question_type": "short_answer",
+        "subject": "Computer Science",
+        "category": "Computer Science/AI"
+      },
+      {
+        "item_id": "hle-671a006dab558f2f9a9845d0",
+        "item_sha256": "1f3cf2545472da186229dcbb1a205e05628497e3d479511b12298508fa053503",
+        "question_type": "short_answer",
+        "subject": "Physics",
+        "category": "Physics"
+      },
+      {
+        "item_id": "hle-671aa91f6a8e7c23ccbf902b",
+        "item_sha256": "fa102a1488396eb0ebf8b024af855f2f63f63164420e1f75c7e5998e6947d5c4",
+        "question_type": "short_answer",
+        "subject": "Medicine",
+        "category": "Biology/Medicine"
+      },
+      {
+        "item_id": "hle-671abddb40e08981d8fd796a",
+        "item_sha256": "96e76072cc88f6b8bfabe78e8ce4065626cb25d884a47d0dbc72fbe3ae029f13",
+        "question_type": "multiple_choice",
+        "subject": "Medicine",
+        "category": "Biology/Medicine"
+      },
+      {
+        "item_id": "hle-671ac42e34dde826ba049e63",
+        "item_sha256": "88f0cf1d77a48cb47914005fee2adcfd8b20f17836dda99c2bcc2da1119ecc91",
+        "question_type": "multiple_choice",
+        "subject": "Materials Science",
+        "category": "Engineering"
+      },
+      {
+        "item_id": "hle-671af1baed3d54e87368bca2",
+        "item_sha256": "c896b76104dfc89ff5fa51124998329e44f32e6a27f4ffbc50245ce557054481",
+        "question_type": "short_answer",
+        "subject": "Chemistry",
+        "category": "Chemistry"
+      },
+      {
+        "item_id": "hle-671b8b0f7bbcc321c99f44ec",
+        "item_sha256": "abf27a107c4e26c96ce493369fa560554212f13d632b7774e78f5801970f67b5",
+        "question_type": "short_answer",
+        "subject": "Classical Ballet",
+        "category": "Other"
+      },
+      {
+        "item_id": "hle-671c0a06ad75138f963f9b56",
+        "item_sha256": "3d31040a54b4d4d4aa37a016f5aca3240d0779236a788b40e2715481e3d5a5ce",
+        "question_type": "short_answer",
+        "subject": "Philosophy",
+        "category": "Humanities/Social Science"
+      },
+      {
+        "item_id": "hle-671c6d6392388142386728ee",
+        "item_sha256": "44adcb89f5ff57c94cdb3cf4e8175653bb16d4468a0364bbade9a3dd70f92537",
+        "question_type": "short_answer",
+        "subject": "Microbiology",
+        "category": "Biology/Medicine"
+      },
+      {
+        "item_id": "hle-671dbd6d61984928f5b6b576",
+        "item_sha256": "9494b6c9671f55aa66c8b0ef675b0f7368ad7fff8901d3654083e76f339eaf49",
+        "question_type": "multiple_choice",
+        "subject": "Chemistry",
+        "category": "Chemistry"
+      },
+      {
+        "item_id": "hle-671dfacd16b873a455cbd5e0",
+        "item_sha256": "b671a7b48a425b780253f7442a207aa1378eb94fcce2e5e948aada9aacab1f1f",
+        "question_type": "short_answer",
+        "subject": "Law",
+        "category": "Humanities/Social Science"
+      },
+      {
+        "item_id": "hle-671e8c73745919354c759204",
+        "item_sha256": "17e57260ae79d79ccd8f1c96a414966405a0598878bdb4f9920952379025a155",
+        "question_type": "short_answer",
+        "subject": "Chemistry",
+        "category": "Chemistry"
+      },
+      {
+        "item_id": "hle-671ebbf35cc535d3e94216ac",
+        "item_sha256": "06ed7620ae470752c3c71682495265ec592a19b25cb294c705066f51d8e5b033",
+        "question_type": "short_answer",
+        "subject": "Electrical Engineering",
+        "category": "Engineering"
+      },
+      {
+        "item_id": "hle-671f09d6d0f22fd6e50482eb",
+        "item_sha256": "c429a9c589101996664ff130c0ca9ddde0dd717a0808bc13f1742dace4467b3f",
+        "question_type": "multiple_choice",
+        "subject": "Biology",
+        "category": "Biology/Medicine"
+      },
+      {
+        "item_id": "hle-671f1702e4e6b61540b0bdb4",
+        "item_sha256": "dd95e4936867739036b95d2cb52e4550c23408f6f8e39b2b5b3509f812533b17",
+        "question_type": "short_answer",
+        "subject": "Computer Science",
+        "category": "Computer Science/AI"
+      },
+      {
+        "item_id": "hle-671f3210e38f776acdad8aab",
+        "item_sha256": "ed39cdeca803afa41428b4c6b42f6f600dfafae40b94e691b62425bdb5c9ee67",
+        "question_type": "short_answer",
+        "subject": "Ecology",
+        "category": "Biology/Medicine"
+      },
+      {
+        "item_id": "hle-671f39dcd579cf064f22d3c1",
+        "item_sha256": "28a1a0326fa2377b7808a15bcaf0f8c5edd0e3819b61844613d70fba8c18c219",
+        "question_type": "multiple_choice",
+        "subject": "Ecology",
+        "category": "Biology/Medicine"
+      },
+      {
+        "item_id": "hle-671f40348b7ca154256661c6",
+        "item_sha256": "9b38f51245e34ac31203b68fbf36e0a4b1ed200168a86c1f4348f969b58d5cf8",
+        "question_type": "multiple_choice",
+        "subject": "Ecology",
+        "category": "Biology/Medicine"
+      },
+      {
+        "item_id": "hle-671f73993e82c6b6151dbba7",
+        "item_sha256": "a073c6a784f2f579d50a299a1fd4004337d20ed0e08392dd274fbeb63e835746",
+        "question_type": "short_answer",
+        "subject": "Trivia",
+        "category": "Other"
+      },
+      {
+        "item_id": "hle-671fd62fc40008a5a756fea4",
+        "item_sha256": "f2c71803424457a1e9a93d3cd9d043caa86bf6d94ddfe22f02c0e52028806455",
+        "question_type": "short_answer",
+        "subject": "Physics",
+        "category": "Physics"
+      },
+      {
+        "item_id": "hle-671fec80cee768cca0b65e5a",
+        "item_sha256": "641af94466a15028c3a69c52eb73550e80656b9a9c1d2955a7f2056b61b5316a",
+        "question_type": "multiple_choice",
+        "subject": "Electrical Engineering",
+        "category": "Engineering"
+      },
+      {
+        "item_id": "hle-671fee7b3fdf9b50dcb7ca58",
+        "item_sha256": "baa0532776c14f8ac536e4eb80600ffe22ba80138b454df19294341dd6d34c5c",
+        "question_type": "multiple_choice",
+        "subject": "Electrical Engineering",
+        "category": "Engineering"
+      },
+      {
+        "item_id": "hle-672053647a7803aa0682c5ac",
+        "item_sha256": "7cc3d89252daf31c855a43e5b5d645064a373392958e78e4897c37b23a077fbb",
+        "question_type": "multiple_choice",
+        "subject": "Law",
+        "category": "Humanities/Social Science"
+      },
+      {
+        "item_id": "hle-67205943fdd1c7b924f99713",
+        "item_sha256": "676a185a4cc6c3c0552bc99c6e2b461be3fec63d1b15aa3f3001f8bbcbdcf883",
+        "question_type": "short_answer",
+        "subject": "Computer Science",
+        "category": "Computer Science/AI"
+      },
+      {
+        "item_id": "hle-672059fde8e4162530496e8f",
+        "item_sha256": "f4f6633b16c021d4c6cb7a0a53e3e3d38593951ea7d706ca16516fcc1bd4fc20",
+        "question_type": "short_answer",
+        "subject": "Computer Science",
+        "category": "Computer Science/AI"
+      },
+      {
+        "item_id": "hle-672072c945e7bc8f5c2dd1ba",
+        "item_sha256": "0111c4d84288761d95b1fc268b91a00740f3eeda2a5a6848dca61e6657353f22",
+        "question_type": "short_answer",
+        "subject": "Physics",
+        "category": "Physics"
+      },
+      {
+        "item_id": "hle-6720fcd2198910fd26b01218",
+        "item_sha256": "488334f06e6babe1aaac688415b6bd561521407cab972057b8ba4dca9123745b",
+        "question_type": "multiple_choice",
+        "subject": "Computational Biology",
+        "category": "Biology/Medicine"
+      },
+      {
+        "item_id": "hle-6721ad631648dda151c2a7ec",
+        "item_sha256": "25fbcc8a912cc1ba0a241fb3745fbd714fdd9783b580bbbf02555dcf43241258",
+        "question_type": "multiple_choice",
+        "subject": "Geology",
+        "category": "Other"
+      },
+      {
+        "item_id": "hle-6721fbd7b5bc9936c245bb78",
+        "item_sha256": "5cdc9ba5f91eaf64363b2c0d4ced0f416484bdd02be544ecbafa890d68fab5dd",
+        "question_type": "short_answer",
+        "subject": "Philosophy",
+        "category": "Humanities/Social Science"
+      },
+      {
+        "item_id": "hle-672235a01e36ca7369b8b157",
+        "item_sha256": "2f71ae91711f6483e90473018b5823c1361b29d06c71f543c40e56dfc5b3290c",
+        "question_type": "short_answer",
+        "subject": "Chemistry",
+        "category": "Chemistry"
+      },
+      {
+        "item_id": "hle-67224742c7e39484bf20334f",
+        "item_sha256": "f64dae8c4290f244e06db13cc33363c967daaa9084de20b9103a72a793f3a61f",
+        "question_type": "short_answer",
+        "subject": "Physics",
+        "category": "Physics"
+      },
+      {
+        "item_id": "hle-67224e62a7eb4424c56ddca5",
+        "item_sha256": "8e8784eee1e571324eb7be1958ed1a02eaab0144fedd062cd59cb42afaefba34",
+        "question_type": "short_answer",
+        "subject": "Electrical Engineering",
+        "category": "Engineering"
+      },
+      {
+        "item_id": "hle-67227b249679954247c9c0b3",
+        "item_sha256": "91bc092dde901d32a60afb8410dfdc07b2fc314a16831b4f68c11c2dfc0aaae0",
+        "question_type": "short_answer",
+        "subject": "Economics",
+        "category": "Humanities/Social Science"
+      },
+      {
+        "item_id": "hle-672302bdbc9e7202ad89ccd3",
+        "item_sha256": "8a199272beb2ae1984ebb9cbde5e0840870aa8e5f7e099fc1dc6cc0e8dabeab5",
+        "question_type": "short_answer",
+        "subject": "Physics",
+        "category": "Physics"
+      },
+      {
+        "item_id": "hle-672308e609910d09444df92a",
+        "item_sha256": "0a8b6f406d8268b7a6a35bf2572113b74794fd81af8c290ef189e56b0d84b1d2",
+        "question_type": "multiple_choice",
+        "subject": "Law",
+        "category": "Humanities/Social Science"
+      },
+      {
+        "item_id": "hle-67230d6e736f03c0e4c1adee",
+        "item_sha256": "b9f93de1555f48d5090bc7f2957ac8c0225e8ae0fae358a826759a878b312129",
+        "question_type": "short_answer",
+        "subject": "Physics",
+        "category": "Physics"
+      },
+      {
+        "item_id": "hle-672338c7348c6cb89bd6a7a4",
+        "item_sha256": "4cbc030b019b369422beb8c26a6bb66360ee493a9d086663cab5cbd200c04d6e",
+        "question_type": "short_answer",
+        "subject": "Physics",
+        "category": "Physics"
+      },
+      {
+        "item_id": "hle-6723977a2460a4b2c86caee8",
+        "item_sha256": "0ccb40e66046a1c1beea659ef37ce9785fcacf6f19467e3ca12f059a8449a847",
+        "question_type": "short_answer",
+        "subject": "Computer Engineering",
+        "category": "Engineering"
+      },
+      {
+        "item_id": "hle-6723aabba9cdb53690220752",
+        "item_sha256": "e5339669e97ae59a7eef2e41a5b09f47d618bcc2b195bca6141e3bb9eee44fd7",
+        "question_type": "short_answer",
+        "subject": "Cultural Studies",
+        "category": "Humanities/Social Science"
+      },
+      {
+        "item_id": "hle-6723ba00339572beba8f91b2",
+        "item_sha256": "e523da2fd4aa0283a87314385539e58dd076d2f4f92b5adc99f61badaeded327",
+        "question_type": "multiple_choice",
+        "subject": "Neuroscience",
+        "category": "Biology/Medicine"
+      },
+      {
+        "item_id": "hle-6723bf036e47cec0509b5caf",
+        "item_sha256": "48c7d932173b162506c5a98341df88e7673eff728d69231048398191abfa5ddf",
+        "question_type": "short_answer",
+        "subject": "Astronomy",
+        "category": "Physics"
+      },
+      {
+        "item_id": "hle-67240e5786f4c71a70e0b499",
+        "item_sha256": "46e631777c9e54ac122a56d8430ebd07fc69b61ad6e40ae8ab0df06ec4cb46a6",
+        "question_type": "multiple_choice",
+        "subject": "Genetics",
+        "category": "Biology/Medicine"
+      },
+      {
+        "item_id": "hle-672416e85247738dfbb432fa",
+        "item_sha256": "be66b8d1f5237ca0bd61c03527a61027660935d8d3c80fdc035def2fb6b0da1f",
+        "question_type": "multiple_choice",
+        "subject": "Genetics",
+        "category": "Biology/Medicine"
+      },
+      {
+        "item_id": "hle-67241711454d2eee0ceef767",
+        "item_sha256": "2b0464aeebe41b8553e7d86f72041b012a863241420400cf051dc586250d6e95",
+        "question_type": "multiple_choice",
+        "subject": "Genetics",
+        "category": "Biology/Medicine"
+      },
+      {
+        "item_id": "hle-67241750cf2f76f66b81fe10",
+        "item_sha256": "9f6211316ab3b8919ee428f8bf6961b50663f25da69db2869553a81324fff156",
+        "question_type": "multiple_choice",
+        "subject": "Genetics",
+        "category": "Biology/Medicine"
+      },
+      {
+        "item_id": "hle-672433577fb5d24be68f010d",
+        "item_sha256": "12a4b07e48a52b7c9f3755306997182fb128470a8116c196655dd5328f3b7289",
+        "question_type": "short_answer",
+        "subject": "Go",
+        "category": "Other"
+      },
+      {
+        "item_id": "hle-672491c391395962e9a7bc58",
+        "item_sha256": "68f07d478b6bd1ee1e57a29b56aa133ebf70298f3abb051d826ae79981d757de",
+        "question_type": "short_answer",
+        "subject": "Trivia",
+        "category": "Other"
+      },
+      {
+        "item_id": "hle-6724bed444c2c3be8ba3cf7e",
+        "item_sha256": "f5ec46464ad6fedc2c0a6176c5ed118a2c43824cdaddd67f380d112140fc6d4b",
+        "question_type": "short_answer",
+        "subject": "Data Science",
+        "category": "Computer Science/AI"
+      },
+      {
+        "item_id": "hle-6724d81d42ec04c22a24aa83",
+        "item_sha256": "298c0be8229fecaa51c311c0037447f751bcc586b1d3702ca26651236f25cf37",
+        "question_type": "multiple_choice",
+        "subject": "Linguistics",
+        "category": "Humanities/Social Science"
+      },
+      {
+        "item_id": "hle-6724ff2892419e4380b56880",
+        "item_sha256": "c56e49b1e8473a635fc5bbfa43a62c1a0e27a16bd07767d7d4733f820c972871",
+        "question_type": "multiple_choice",
+        "subject": "Biology",
+        "category": "Biology/Medicine"
+      },
+      {
+        "item_id": "hle-672507e82cc2a1349f1ffaf1",
+        "item_sha256": "92f428eaa6a958bc940d5dd40849fb950d29b4a753e6a2a1d92613d3c7234819",
+        "question_type": "multiple_choice",
+        "subject": "Genetics",
+        "category": "Biology/Medicine"
+      },
+      {
+        "item_id": "hle-6725080f2cc2a1349f1ffaf4",
+        "item_sha256": "dc607ca3a3a194a07d8b01627a4b1fac4e8091049d84ef5972cd1fe29a424323",
+        "question_type": "multiple_choice",
+        "subject": "Genetics",
+        "category": "Biology/Medicine"
+      },
+      {
+        "item_id": "hle-67250fde58b17ce5905f2cfe",
+        "item_sha256": "610e96f17c4a437f901ad24f44c4d1eea06cb4afd6de545d4c03e4abb323734d",
+        "question_type": "short_answer",
+        "subject": "Chemistry",
+        "category": "Chemistry"
+      },
+      {
+        "item_id": "hle-6725255ee6807ea2c8372c3c",
+        "item_sha256": "ee450697b6820f23bf200e553d527d7d3588e709bcd9ca5b7181cb2aceacaaa8",
+        "question_type": "short_answer",
+        "subject": "Chemistry",
+        "category": "Chemistry"
+      },
+      {
+        "item_id": "hle-67253a0b13c1aec29d1f1841",
+        "item_sha256": "d535ab941a1fab139cb5dc4b54461d1893bce7c35346978f395f0adbd5739ae8",
+        "question_type": "short_answer",
+        "subject": "Computer Science",
+        "category": "Computer Science/AI"
+      },
+      {
+        "item_id": "hle-67253d7aac6dc24f8aafbfc1",
+        "item_sha256": "46d2650549999aca79c07d38d37f252dcb7cd80e0fc15c258e4ff602431b68d2",
+        "question_type": "short_answer",
+        "subject": "Chemistry",
+        "category": "Chemistry"
+      },
+      {
+        "item_id": "hle-67256e36e5e6cc87293fc3f0",
+        "item_sha256": "a74735a3412f4a17089169a2ef3c57c2c993af8baf41830380df9f9e00f93730",
+        "question_type": "multiple_choice",
+        "subject": "Microbiology",
+        "category": "Biology/Medicine"
+      },
+      {
+        "item_id": "hle-6725703471b3b52354976be1",
+        "item_sha256": "d2db60392e8c78f9697f02905b883c1bf36b5c37e2c85c52a62cd4302dbae9e1",
+        "question_type": "short_answer",
+        "subject": "Classics",
+        "category": "Humanities/Social Science"
+      },
+      {
+        "item_id": "hle-67257157c16289d7e113915b",
+        "item_sha256": "f54ec697049215782f236a8c674294b244636e8e3205200eba89f5fa91855457",
+        "question_type": "multiple_choice",
+        "subject": "Chemistry",
+        "category": "Chemistry"
+      },
+      {
+        "item_id": "hle-6725c1e0eac3991069717fda",
+        "item_sha256": "bc4d081a16acaef4b458b312488ac9a44631caa251ad91f2a7d5bb7e75952b1a",
+        "question_type": "short_answer",
+        "subject": "Transmission Model",
+        "category": "Biology/Medicine"
+      },
+      {
+        "item_id": "hle-6725e204e46049e7f2d2a192",
+        "item_sha256": "fd23deb2571b5baec4b3af3a4831c4903b8f26d7410c2cf71749f351c5ea5a0e",
+        "question_type": "short_answer",
+        "subject": "Physics",
+        "category": "Physics"
+      },
+      {
+        "item_id": "hle-6725e470de551b21db6a0f0d",
+        "item_sha256": "09c021cee989eae9f437eb1d07c70493e5c3a30fa9e68946cdc8a41123340971",
+        "question_type": "short_answer",
+        "subject": "Classical Ballet",
+        "category": "Other"
+      },
+      {
+        "item_id": "hle-6725f12226992c47ce3a7ec3",
+        "item_sha256": "1544d7059768b23bdd0422039617136c67f2be2d28f5d59146bdb8f00d1027c3",
+        "question_type": "short_answer",
+        "subject": "Computer Science",
+        "category": "Computer Science/AI"
+      },
+      {
+        "item_id": "hle-67260a2a8f9ce8a272ed4e9a",
+        "item_sha256": "093607e0140de2210079d7be5c96516098245294dfd1e3c3e379853ae181aa36",
+        "question_type": "short_answer",
+        "subject": "Computer Science",
+        "category": "Computer Science/AI"
+      },
+      {
+        "item_id": "hle-672642510078e0b26fc15845",
+        "item_sha256": "6fa43fbb95fdd0f09a2909e9e27968668d50a7fdfbe6b4ac22ae50aaf593db42",
+        "question_type": "short_answer",
+        "subject": "Computer Science",
+        "category": "Computer Science/AI"
+      },
+      {
+        "item_id": "hle-6727716f45a3c3a9020e2732",
+        "item_sha256": "aaf47968d5b0d374708dc1ed468335b72c7afeed4bec6fe0acaaf4859cc73e5a",
+        "question_type": "short_answer",
+        "subject": "Physics",
+        "category": "Physics"
+      },
+      {
+        "item_id": "hle-6727dd5c5e987b1e8c17f8d9",
+        "item_sha256": "42c7c8c3a8040afc344189ab86c3e9c592a8222444fb7f3b2b959ab55f064095",
+        "question_type": "short_answer",
+        "subject": "Trivia",
+        "category": "Other"
+      },
+      {
+        "item_id": "hle-6728b69ce3c03cd66bc102fe",
+        "item_sha256": "b4746b8c13ef3a53d3dc28d4a1f7f197fa5ac1e2d1cbb4713dfb7a8efdbfbae4",
+        "question_type": "multiple_choice",
+        "subject": "Materials Science",
+        "category": "Engineering"
+      },
+      {
+        "item_id": "hle-6728e6a55d12836c602af693",
+        "item_sha256": "d757068b31a5e2aaa5ca781bb25a17c1fb216199aacd42fcbc3aec54f1c4c45a",
+        "question_type": "short_answer",
+        "subject": "Electrical Engineering",
+        "category": "Engineering"
+      },
+      {
+        "item_id": "hle-6728f1b489898f87cb5320ea",
+        "item_sha256": "3e75ec0bc74254173365f604c646d484d5b5886b91eee36425035dc27ffb6867",
+        "question_type": "short_answer",
+        "subject": "Musicology",
+        "category": "Other"
+      },
+      {
+        "item_id": "hle-6729832da5f43bd5a3870e18",
+        "item_sha256": "62c2a05aadb0261455ba1f2613f7f08b9d2db1381fa1574afa03d7dcbdf4b800",
+        "question_type": "short_answer",
+        "subject": "Computer Science",
+        "category": "Computer Science/AI"
+      },
+      {
+        "item_id": "hle-672a80a432cd57d8762583e9",
+        "item_sha256": "506e47c380a38f8d2768d337f87fd818102604c11eab1ed8db65b05fe826da30",
+        "question_type": "short_answer",
+        "subject": "Physics",
+        "category": "Physics"
+      },
+      {
+        "item_id": "hle-672aac7a78e0ab15cf86003b",
+        "item_sha256": "7f1c1c60a8025495b2c74931baab78b7b80590e492bb8ce0d928b48f8b795343",
+        "question_type": "short_answer",
+        "subject": "Trivia",
+        "category": "Other"
+      },
+      {
+        "item_id": "hle-672b2749f64de603265f9fc4",
+        "item_sha256": "5043329366fde51d9fead47e6ac55077f1de86dd3ddc06259f5567f97b43ba81",
+        "question_type": "multiple_choice",
+        "subject": "Biochemistry",
+        "category": "Biology/Medicine"
+      },
+      {
+        "item_id": "hle-672bb2605a3e88050ba2cef8",
+        "item_sha256": "d50b29d5b71832c5bc8fb01a366678dda8b1182f5152b45587116253f8d3182d",
+        "question_type": "multiple_choice",
+        "subject": "Immunology",
+        "category": "Biology/Medicine"
+      },
+      {
+        "item_id": "hle-672cd4d81eb548f9775d81f5",
+        "item_sha256": "82e0c57f3849255b153f0fc0741b3e618e3651a63e13c146b9c8420b4ed9dbef",
+        "question_type": "short_answer",
+        "subject": "Physics",
+        "category": "Physics"
+      },
+      {
+        "item_id": "hle-672ddd9bff7bf1483f564046",
+        "item_sha256": "5ad85bc2414d172df4b312b2cf274be55546af4ed87d35e52f44bf3cbcc784aa",
+        "question_type": "multiple_choice",
+        "subject": "Physics",
+        "category": "Physics"
+      },
+      {
+        "item_id": "hle-672de1afed6de72b75b8c7e6",
+        "item_sha256": "5c9a450cc4b5caee7654a55152e8bb1272e298fc9b14fd955ed06f7121577f1e",
+        "question_type": "multiple_choice",
+        "subject": "Physics",
+        "category": "Physics"
+      },
+      {
+        "item_id": "hle-672dfdac63f8d9211905d385",
+        "item_sha256": "b2ea6e52d1934ad6017129208f1e69a337d611f93ac78dc21919c7f8f6a4054c",
+        "question_type": "multiple_choice",
+        "subject": "Physics",
+        "category": "Physics"
+      },
+      {
+        "item_id": "hle-672e50c6b9281732f28aa0f3",
+        "item_sha256": "ba4472020d69e0eff968fb7207fe77c1e211f627e66b28aa01cb373db135528e",
+        "question_type": "multiple_choice",
+        "subject": "Poetry",
+        "category": "Humanities/Social Science"
+      },
+      {
+        "item_id": "hle-672e6368958c5d0efe9d037d",
+        "item_sha256": "80e0c7896a1e86b6d5536e1710782a581cbd06241508e26f737d7131f3b61889",
+        "question_type": "multiple_choice",
+        "subject": "Poetry",
+        "category": "Humanities/Social Science"
+      },
+      {
+        "item_id": "hle-672e6e4a85ed85778c0fb28e",
+        "item_sha256": "82ee1642e3ba28dcf41dbb75b39cee5a1e0579005b348862b94b2eb87de33fab",
+        "question_type": "short_answer",
+        "subject": "Law",
+        "category": "Humanities/Social Science"
+      },
+      {
+        "item_id": "hle-672f72e3609b665328565e6b",
+        "item_sha256": "556865cc72ba16ea6a9ebec38defb10b83c4bb6d02dc74782be53f7a1fc5a998",
+        "question_type": "short_answer",
+        "subject": "Computer Science",
+        "category": "Computer Science/AI"
+      },
+      {
+        "item_id": "hle-672fc00e13e5fbd332372f3f",
+        "item_sha256": "aee0d643d6751515bc7004f7910e10ee7653d04d7422c6278b92a521d58e1847",
+        "question_type": "short_answer",
+        "subject": "Physics",
+        "category": "Physics"
+      },
+      {
+        "item_id": "hle-6730f3c006cd33fe46ca2dfe",
+        "item_sha256": "3f0e2e5f6cce69183ee462764ce50d04b738bf1da3eb25d2167d2ba1ff7b8c97",
+        "question_type": "multiple_choice",
+        "subject": "Chemistry",
+        "category": "Chemistry"
+      },
+      {
+        "item_id": "hle-6732761c77e9a02e661946ac",
+        "item_sha256": "f38f222be65e629e637054b5efeebf586faa913162031d731f5d85e9e408f62b",
+        "question_type": "short_answer",
+        "subject": "Geography",
+        "category": "Other"
+      },
+      {
+        "item_id": "hle-67327daab33b7d6a440fecf0",
+        "item_sha256": "5e6a4baa19dc57f90eeb326ff179df2b081d2d3ac31c4f89464f899cb4886623",
+        "question_type": "short_answer",
+        "subject": "Computer Science",
+        "category": "Computer Science/AI"
+      },
+      {
+        "item_id": "hle-67330f175d26efacb4819f35",
+        "item_sha256": "b0eb1da22f2b457dae4ce8a7a78139f9f4b5ea69df581ee50e9b96dddeb6a4f5",
+        "question_type": "short_answer",
+        "subject": "Art History",
+        "category": "Other"
+      },
+      {
+        "item_id": "hle-67332b7198af9f49ad5d743a",
+        "item_sha256": "40c10e433fc95e805dab0b1712e10481bbee5dbfe4d35748c5dd0abadf11cc9c",
+        "question_type": "short_answer",
+        "subject": "Information Systems",
+        "category": "Computer Science/AI"
+      },
+      {
+        "item_id": "hle-673347de7c5871632811feec",
+        "item_sha256": "173c1ff8091c8825ab6f11f7f922b9aac712837246776a971e1e6867c095cd7f",
+        "question_type": "short_answer",
+        "subject": "Physics",
+        "category": "Physics"
+      },
+      {
+        "item_id": "hle-6733e7914b8994c57e716095",
+        "item_sha256": "401d5227dd7ce1863443ac3585c927c9786bdde311c9dda243f5b158567f4b40",
+        "question_type": "short_answer",
+        "subject": "Finance",
+        "category": "Humanities/Social Science"
+      },
+      {
+        "item_id": "hle-6733fe294a614b25db9b204a",
+        "item_sha256": "1f6e69eda5876f44a992c7a5e3a7c228caa1fd7e5ab810e84a8ce34fec010d2e",
+        "question_type": "multiple_choice",
+        "subject": "Chemistry",
+        "category": "Chemistry"
+      },
+      {
+        "item_id": "hle-67353949d558a4352312cd79",
+        "item_sha256": "76d12b64d808390f131f34d0eb6b768afdd49056e114ae581b65545fa246c5e7",
+        "question_type": "short_answer",
+        "subject": "Electrical Engineering",
+        "category": "Engineering"
+      },
+      {
+        "item_id": "hle-673612eaff612f83700ec41f",
+        "item_sha256": "ea79b31cd7d12bcbb1e7bfd0c4d1ef95b9828db08f7c8761eba2e20bbb3099e0",
+        "question_type": "short_answer",
+        "subject": "Art History",
+        "category": "Other"
+      },
+      {
+        "item_id": "hle-6736289810ec0a5f859365d0",
+        "item_sha256": "d8ad43f6ece395b2da367ea98aea6ab6203ce961f9ca0b70267b6c3b3f3db0ef",
+        "question_type": "multiple_choice",
+        "subject": "Classical Ballet",
+        "category": "Other"
+      },
+      {
+        "item_id": "hle-67367227d9ae2dd73efeded6",
+        "item_sha256": "37a33b2e681a477a92a95b40392ed3350e3f4409af3f7c7dd9dd858b26f80f7b",
+        "question_type": "multiple_choice",
+        "subject": "Artificial Intelligence",
+        "category": "Computer Science/AI"
+      },
+      {
+        "item_id": "hle-673681def5487e4de6e78e1e",
+        "item_sha256": "fa75a6a9fbf17e79dc81100cbaf2f674a2bfe2ddb9a3d4642c63f3b7a4dc4efb",
+        "question_type": "short_answer",
+        "subject": "Chemistry",
+        "category": "Chemistry"
+      },
+      {
+        "item_id": "hle-6736a9b0b949d548db8da965",
+        "item_sha256": "29472fedd9ce5d30cbe92655d806657b1049e70d5700450a353c7870debc0844",
+        "question_type": "multiple_choice",
+        "subject": "Physiology",
+        "category": "Biology/Medicine"
+      },
+      {
+        "item_id": "hle-6736ab1af0b1f35585e14f7d",
+        "item_sha256": "7f13587652e2d6a2bbc5336f75358410858c105a98fc5c96f2efbee30f119fd8",
+        "question_type": "short_answer",
+        "subject": "Economics",
+        "category": "Humanities/Social Science"
+      },
+      {
+        "item_id": "hle-6736acee69d6d88d06d3124a",
+        "item_sha256": "3e8ccf976be67c31f2d2a6cb7d581eb5337bbbbf14412964b10012c5a83f5b3a",
+        "question_type": "short_answer",
+        "subject": "Chemistry",
+        "category": "Chemistry"
+      },
+      {
+        "item_id": "hle-6736bd0c2f3638e3bc109888",
+        "item_sha256": "56d1d1f0b01d277f8d83690093aac6572234e55a9118cbd7325abb1c0aec9d28",
+        "question_type": "short_answer",
+        "subject": "Quantization Scheme",
+        "category": "Computer Science/AI"
+      },
+      {
+        "item_id": "hle-6736cec9cad1584306eee714",
+        "item_sha256": "1c103cd987b422e4203b063983554475f1693cb0f5d7bf13272e8e30649a93bf",
+        "question_type": "short_answer",
+        "subject": "History",
+        "category": "Humanities/Social Science"
+      },
+      {
+        "item_id": "hle-6736f655e51e5ebba186a75d",
+        "item_sha256": "0211d54be16779a4870c6f037ff170334c7f878700622fd91cbdcf950296f634",
+        "question_type": "short_answer",
+        "subject": "Computer Science",
+        "category": "Computer Science/AI"
+      },
+      {
+        "item_id": "hle-6736f7bc980211368f0f94eb",
+        "item_sha256": "3dac13eb4c8711639ef78d4b353e138a668b6a6b0733df645107cc7c21a99792",
+        "question_type": "short_answer",
+        "subject": "Law",
+        "category": "Humanities/Social Science"
+      },
+      {
+        "item_id": "hle-6737006d3f0517b6e8a60733",
+        "item_sha256": "7bf03c191b9b5cb45ca8e63feddc64a1886f48c32212aaa95fff0ba5d93e5056",
+        "question_type": "multiple_choice",
+        "subject": "Medicine",
+        "category": "Biology/Medicine"
+      },
+      {
+        "item_id": "hle-6737092e3a78dbef3611f734",
+        "item_sha256": "9f12c1ff29a425179e43209c49f9edd2a4ee6a80233cd01c863eef80ca770e70",
+        "question_type": "short_answer",
+        "subject": "Physics",
+        "category": "Physics"
+      },
+      {
+        "item_id": "hle-673722a1f362584fff2ae212",
+        "item_sha256": "a56145085638e72b9d3525e5583ac93cba2b59b4eb248f342b4abb6971fd6cf1",
+        "question_type": "short_answer",
+        "subject": "Art History",
+        "category": "Other"
+      },
+      {
+        "item_id": "hle-67373446bb9a786bfe928d2c",
+        "item_sha256": "f52c786f465e28214f4f15125f5af402bfbe526e9e7f351a26a17f874c839aba",
+        "question_type": "short_answer",
+        "subject": "Linguistics",
+        "category": "Humanities/Social Science"
+      },
+      {
+        "item_id": "hle-6737b06da13b1b21b0d0826f",
+        "item_sha256": "2eb5c108d1e6c1722d09cfb9f3e8066f494509abc599372a8adf96462664d1a6",
+        "question_type": "short_answer",
+        "subject": "Trivia",
+        "category": "Other"
+      },
+      {
+        "item_id": "hle-6737d23a6a364decc45cc7ee",
+        "item_sha256": "0e0181778f01e0e4dc00b07329d024e61f9304c5cbe4c2b139be0a7d77001385",
+        "question_type": "short_answer",
+        "subject": "Astronomy",
+        "category": "Physics"
+      },
+      {
+        "item_id": "hle-6737d3148ebd5a3e08cacd4d",
+        "item_sha256": "7908c3665274c2c31fe8bc1c4433f41ff38b9060a055b7573f37b0c50e0d2271",
+        "question_type": "short_answer",
+        "subject": "Computer Science",
+        "category": "Computer Science/AI"
+      },
+      {
+        "item_id": "hle-67380ecdb808e1bf292d214e",
+        "item_sha256": "92ff529033e80f9f6c3bee16cb7fd3911fd249d12115e7c50c8e9b267b73c319",
+        "question_type": "short_answer",
+        "subject": "Physics",
+        "category": "Physics"
+      },
+      {
+        "item_id": "hle-67381812e4ea03183132a54e",
+        "item_sha256": "ed709647234787ceac832399c70960f84d5924ad1b796d40ab8308aaf080e748",
+        "question_type": "short_answer",
+        "subject": "Physics",
+        "category": "Physics"
+      },
+      {
+        "item_id": "hle-673818e39b3842b34824240d",
+        "item_sha256": "df1eeb893549d7f11d6f4a713b9672cb30f4b4f4a49efcb289b56dee3b779e84",
+        "question_type": "multiple_choice",
+        "subject": "High Energy Physics And Nuclear Physics",
+        "category": "Physics"
+      },
+      {
+        "item_id": "hle-6738df8c201a2bd66499797a",
+        "item_sha256": "591ee6361c4e81e94040e5d2983cbd50f0a1aef23d943bf2ed11cc0f91b3fa24",
+        "question_type": "multiple_choice",
+        "subject": "Pathology",
+        "category": "Biology/Medicine"
+      },
+      {
+        "item_id": "hle-6738e2bb0afc5078575438b5",
+        "item_sha256": "860a8a6561c289ab390c447c5210b6d5fe73b3a5de9122acdf0e819e35ada830",
+        "question_type": "multiple_choice",
+        "subject": "Art History",
+        "category": "Other"
+      },
+      {
+        "item_id": "hle-67390df48dfa3346e87f711a",
+        "item_sha256": "86be2a9e7c64d8652c9e2e7cd4e58e237594578549fcad88981d39df0bdeb10a",
+        "question_type": "short_answer",
+        "subject": "Physics",
+        "category": "Physics"
+      },
+      {
+        "item_id": "hle-6739149727881148ddf2aca0",
+        "item_sha256": "19cd3e138de90d4766a01f603ffa0f4948691750e6ef932a6483d1f9a035f305",
+        "question_type": "short_answer",
+        "subject": "Philosophy",
+        "category": "Humanities/Social Science"
+      },
+      {
+        "item_id": "hle-6739f5ede8b91dc9dac17cd9",
+        "item_sha256": "d7c889165e02c5cdfc2852726d4014cc263e9ec71817cf80309a59cbb91c3892",
+        "question_type": "short_answer",
+        "subject": "Biology",
+        "category": "Biology/Medicine"
+      },
+      {
+        "item_id": "hle-6739fdd1e27e1ce214359d62",
+        "item_sha256": "4fbe80ae94044482d67066451fc0735522786d7a2962c744a3a00b5f10d4d40a",
+        "question_type": "short_answer",
+        "subject": "Computer Engineering",
+        "category": "Engineering"
+      },
+      {
+        "item_id": "hle-673a32a842a12c80ec5f8012",
+        "item_sha256": "6d3d61621bc5a0984e93b0004459a19b895c93bee83730e719fd96d867420cec",
+        "question_type": "short_answer",
+        "subject": "Computer Science",
+        "category": "Computer Science/AI"
+      },
+      {
+        "item_id": "hle-673b6ca1a646afb63047219f",
+        "item_sha256": "e0d659c17b7dcdcd050bfc94dcbd894ac6009e0eb52544eed916d976a0253901",
+        "question_type": "multiple_choice",
+        "subject": "Anatomy",
+        "category": "Biology/Medicine"
+      },
+      {
+        "item_id": "hle-673b865227d07a53a7b0ec48",
+        "item_sha256": "926180d4cf598c90f36f195a51fc6442a466306b4401bad83c5726c359b9da20",
+        "question_type": "short_answer",
+        "subject": "Physics",
+        "category": "Physics"
+      },
+      {
+        "item_id": "hle-673b9c07869b2bf69018d131",
+        "item_sha256": "bf5c8440aa1090a80897e36e33f594ddf08d589722b0d60a242d249965deeb9a",
+        "question_type": "short_answer",
+        "subject": "Kinesiology",
+        "category": "Biology/Medicine"
+      },
+      {
+        "item_id": "hle-673bd7048229809fa3ec5653",
+        "item_sha256": "f30c370a9c2132145db2990d19b8254ded86787a20e18b9a429233a366ca3900",
+        "question_type": "short_answer",
+        "subject": "Electrical Engineering",
+        "category": "Engineering"
+      },
+      {
+        "item_id": "hle-673be25fc988fbc8ef18d148",
+        "item_sha256": "37801aa4d753dde985b3aeb740a6c05f373a1bba7e35cc7bec5646f4f5023b0c",
+        "question_type": "multiple_choice",
+        "subject": "Philosophy",
+        "category": "Humanities/Social Science"
+      },
+      {
+        "item_id": "hle-673c03d7048156c9e9c8cac6",
+        "item_sha256": "a94989f5fd728250b358f2b52ce4af4292123be5c4ec64f0737df951ba699b9d",
+        "question_type": "multiple_choice",
+        "subject": "Physics",
+        "category": "Physics"
+      },
+      {
+        "item_id": "hle-673cc4885c871b3f9e026d02",
+        "item_sha256": "db886fb80535cde3a92bc8ec9a2569b5355af66a11c02f601688a2aedbf3560d",
+        "question_type": "short_answer",
+        "subject": "Astronomy",
+        "category": "Physics"
+      },
+      {
+        "item_id": "hle-673e37db8d2811de2a83c135",
+        "item_sha256": "685c742b578ce1ddd961635d1cb7eeb8cf98da8be42177de11023fea649e7d94",
+        "question_type": "short_answer",
+        "subject": "History",
+        "category": "Humanities/Social Science"
+      },
+      {
+        "item_id": "hle-673fd5bcf7f86aa772591883",
+        "item_sha256": "133b4f52572e76a3ddd9eaf8df8204ffa13a9a1c03410b3baee433d16fda53d5",
+        "question_type": "short_answer",
+        "subject": "Classics",
+        "category": "Humanities/Social Science"
+      },
+      {
+        "item_id": "hle-673ffbd26fcd58c71515bdee",
+        "item_sha256": "e065af7925f9405c32cff000d35f6c766d6a5a10edad45e0358ec54f6348ce97",
+        "question_type": "short_answer",
+        "subject": "Computer Science",
+        "category": "Computer Science/AI"
+      },
+      {
+        "item_id": "hle-67428dcab53462ceeb83c6f6",
+        "item_sha256": "571d485e19089e76f04e70564246bac63251a2869e18fecb368505d0d8b35982",
+        "question_type": "short_answer",
+        "subject": "Physics",
+        "category": "Physics"
+      },
+      {
+        "item_id": "hle-67447514819b2c9d18ad5210",
+        "item_sha256": "2224531a5d7b7cfaa14c4a94e0f889a5fbd14a93272781b99a4b5eb9350c71a9",
+        "question_type": "short_answer",
+        "subject": "Literature",
+        "category": "Humanities/Social Science"
+      },
+      {
+        "item_id": "hle-6744997646a2234792aa8f52",
+        "item_sha256": "eac80388bef2d535da42bf40fcc0d9d2aaca02f796ad0d7357b7971402fff0c3",
+        "question_type": "multiple_choice",
+        "subject": "Musicology",
+        "category": "Other"
+      },
+      {
+        "item_id": "hle-67455cd07df215d3effe4f4e",
+        "item_sha256": "23dbcbcf19a9b63e66ca292b54bbbb2ef298cdf84385a3de47d3e3e2781c6040",
+        "question_type": "short_answer",
+        "subject": "Physics",
+        "category": "Physics"
+      },
+      {
+        "item_id": "hle-675642a2829a199495a2fa4e",
+        "item_sha256": "010917072199059f2b0173684ae88d827525c96612fb1c6d6a97c7ca7f6a2755",
+        "question_type": "short_answer",
+        "subject": "Game Design",
+        "category": "Other"
+      },
+      {
+        "item_id": "hle-67581f18abd39842c40bd2fd",
+        "item_sha256": "b24239c7817ea92991791b85182992a849f4c409d31a4c5979ed1f5238ea82a9",
+        "question_type": "short_answer",
+        "subject": "Artificial Intelligence",
+        "category": "Computer Science/AI"
+      },
+      {
+        "item_id": "hle-675854c4cde1e0c274a1e16d",
+        "item_sha256": "822a82bd03984b5ddc57c5c3fd3fb1d77c0acdabf7fbb2ad35681801dcec0519",
+        "question_type": "short_answer",
+        "subject": "Trivia",
+        "category": "Other"
+      },
+      {
+        "item_id": "hle-67621c9152d4856784239c35",
+        "item_sha256": "63a393cf8c700f2edf1fd708dc9ed2308cd76fa0f49a1f72562fc88853c7dc30",
+        "question_type": "short_answer",
+        "subject": "Computer Science",
+        "category": "Computer Science/AI"
+      },
+      {
+        "item_id": "hle-67642227793d74cedaf26115",
+        "item_sha256": "abc954f49971f1a1f745b2a519d9c26fff9bd1a6a3c028b2f2599a268d7eb93c",
+        "question_type": "short_answer",
+        "subject": "Robotics",
+        "category": "Computer Science/AI"
+      },
+      {
+        "item_id": "hle-6766662d37a605e5d7cb9ee8",
+        "item_sha256": "9f2663f46b473183bc88676bb794c07543cd5a03619f6c936a8e69698d01c028",
+        "question_type": "multiple_choice",
+        "subject": "Medicine",
+        "category": "Biology/Medicine"
+      },
+      {
+        "item_id": "hle-67672352c393c4ff629cb820",
+        "item_sha256": "96888efedba351db317787ddf4be959fbe076ae2f83491f99f5f5a58f86dd78a",
+        "question_type": "multiple_choice",
+        "subject": "Neuroscience",
+        "category": "Biology/Medicine"
+      },
+      {
+        "item_id": "hle-6779684cbb4f348017910079",
+        "item_sha256": "8907da3919abdb2defd948dc52196773fe3e88b3ade9794f454ff95e31f1338c",
+        "question_type": "multiple_choice",
+        "subject": "Neuroscience",
+        "category": "Biology/Medicine"
+      },
+      {
+        "item_id": "hle-677ad03c307d6c1c47c4e41e",
+        "item_sha256": "1c09c714b0011b78847095d0d749811d0e4cae840dfc7e88e7111bd4a9e30e64",
+        "question_type": "short_answer",
+        "subject": "Computer Science",
+        "category": "Computer Science/AI"
+      },
+      {
+        "item_id": "hle-677c9bc140c35493a85c3c33",
+        "item_sha256": "328067f8a90aac9ea00770e2c4ad1913f9912600fa4914e6c717c0bb07ae30cc",
+        "question_type": "short_answer",
+        "subject": "Chess",
+        "category": "Other"
+      },
+      {
+        "item_id": "hle-677da0a433769e54d305f23c",
+        "item_sha256": "fac639a01f4fd9b75e01f8dd9e8b64865af5ebb10555e6a26a2e4422d5bde499",
+        "question_type": "multiple_choice",
+        "subject": "Physics",
+        "category": "Physics"
+      },
+      {
+        "item_id": "hle-677fcb0487e03828c5c19bcd",
+        "item_sha256": "a154ce7b690e68f5e3c5389361f96fd74a2fe21b80ad5da3aebef3889788e91b",
+        "question_type": "short_answer",
+        "subject": "History",
+        "category": "Humanities/Social Science"
+      },
+      {
+        "item_id": "hle-67830266ae4b98740df9a9ce",
+        "item_sha256": "a8e7c49dc4a7695bade3d81d41d1174c7458ba88c92e0ced6286e337db7e2495",
+        "question_type": "short_answer",
+        "subject": "Computer Science",
+        "category": "Computer Science/AI"
+      },
+      {
+        "item_id": "hle-678fbf931413486f7dc2a7f1",
+        "item_sha256": "87c07a3ba7dfc3d30564e114dfef4cc3d30e710d4ad1bceed477538b18f22776",
+        "question_type": "short_answer",
+        "subject": "English Literature",
+        "category": "Humanities/Social Science"
+      }
+    ]
   }
 }
