@@ -61,8 +61,8 @@ Full-run cost estimate: $697 for default effort across all arms, $3,751 for the 
 No accuracy numbers exist yet. No ensemble comparisons have been run. Results will come from live Bedrock calls in Phase 2, and I'll report them when they exist, not before.
 
 ```bash
-git clone https://github.com/ccrngd1/ensemble-experiments
-cd ensemble-experiments/ensemble-reboot
+git clone https://github.com/ccrngd1/ensemble-reboot
+cd ensemble-reboot
 pip install -e .
 python3 -m pytest -q   # 139 passed, 2 skipped
 ```
